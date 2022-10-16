@@ -7,4 +7,6 @@
 - [ ] Evan purposely sleeps late to play LoL and gets detention (jov)
 - [ ] Jovan severely underperforms in school (jov)
 - [ ] Antonio slurs at school and almost gets expelled, having Tim bribe the principal (jov)
-- [ ] the siblings later lear that the parents passed away, hence why they never came home or responded digitally (jas)
+- [ ] the siblings later learn that the parents passed away, hence why they never came home or responded digitally (jas)
+- [ ] the siblings learn that the parents forget about the siblings and start another family (nad)
+- [ ] Tim only knows what happened to the parents, but are afraid to tell the siblings (jov)
