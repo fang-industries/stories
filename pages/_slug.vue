@@ -10,12 +10,22 @@
         class="w-full no-underline"
       >
         <div
-          class="flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
+          :class="
+            ep === episode.num.toString()
+              ? 'flex flex-col cursor-default py-1 px-2 rounded-lg transition'
+              : 'flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition'
+          "
         >
           <p class="text-sm no-underline dark:text-neutral-500">
             Episode #{{ episode.num }}
           </p>
-          <span class="underline font-medium">
+          <span
+            :class="
+              ep === episode.num.toString()
+                ? 'no-underline font-medium hover:text-neutral-700 dark:hover:text-neutral-200 text-neutral-700 dark:text-neutral-200'
+                : 'underline font-medium'
+            "
+          >
             {{ episode.title }}
           </span>
         </div>
