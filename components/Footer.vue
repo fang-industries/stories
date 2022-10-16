@@ -5,7 +5,7 @@
       <span class="text-neutral-600 dark:text-neutral-500"
         >— published by Jason
       </span>
-      <span class="text-neutral-600 dark:text-neutral-500"
+      <span class="text-neutral-600 dark:text-neutral-500 hidden md:block"
         >Copyright © 2022 Fang Industries, inc.
       </span>
     </div>

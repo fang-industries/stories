@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex w-full">
     <div
-      class="w-96 h-screen flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="w-96 h-screen hidden md:flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <nuxt-link
         v-for="episode in episodes"
@@ -32,12 +32,16 @@
       </nuxt-link>
     </div>
     <div
-      class="pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
+      class="md:pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
-      <div class="w-[48rem] h-full flex flex-col py-16 justify-between">
+      <div
+        class="md:w-[48rem] px-4 h-full flex flex-col py-8 md:py-16 justify-between"
+      >
         <article class="gap-y-8 flex flex-col">
           <div class="flex flex-col gap-y-2">
-            <h1 class="mb-1 text-5xl font-semibold">{{ page.title }}</h1>
+            <h1 class="mb-1 text-4xl md:text-5xl font-semibold">
+              {{ page.title }}
+            </h1>
             <div class="mb-1 flex space-x-2 text-neutral-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

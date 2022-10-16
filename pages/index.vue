@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex w-full">
     <div
-      class="w-96 h-screen flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="hidden md:flex w-96 h-screen flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <nuxt-link
         v-for="episode in episodes"
@@ -22,16 +22,16 @@
       </nuxt-link>
     </div>
     <div
-      class="pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
+      class="md:pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
       <div
-        class="px-8 md:px-0 md:w-[48rem] h-full flex flex-col py-16 justify-between"
+        class="px-4 md:px-4 md:w-[48rem] h-full flex flex-col py-8 md:py-16 justify-between"
       >
         <div class="flex flex-col gap-y-8">
-          <h1 class="text-5xl font-semibold text-center">
-            <code class="font-medium text-lime-500 dark:text-lime-400"
-              >stories.fangdustry.me</code
-            >
+          <h1
+            class="text-4xl md:text-5xl font-semibold text-center text-lime-500"
+          >
+            Hello there!
           </h1>
           <div class="flex flex-col gap-y-4">
             <h3 class="text-3xl font-semibold">
