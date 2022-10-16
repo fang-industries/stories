@@ -42,7 +42,7 @@
             <h1 class="mb-1 text-4xl md:text-5xl font-semibold">
               {{ page.title }}
             </h1>
-            <div class="mb-1 flex space-x-2 text-neutral-500">
+            <div class="mb-1 flex space-x-1 text-neutral-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="my-auto h-5 w-5"
