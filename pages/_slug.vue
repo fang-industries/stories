@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex w-full">
     <div
-      class="w-[23.6rem] flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="w-96 h-screen flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <nuxt-link
         v-for="episode in episodes"
@@ -10,32 +10,19 @@
         class="w-full no-underline"
       >
         <div
-          :class="
-            ep === episode.num.toString()
-              ? 'flex flex-col cursor-default py-1 px-2 rounded-lg transition'
-              : 'flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition'
-          "
+          class="flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
         >
           <p class="text-sm no-underline dark:text-neutral-500">
             Episode #{{ episode.num }}
           </p>
-          <span
-            :class="
-              ep === episode.num.toString()
-                ? 'no-underline font-medium hover:text-neutral-700 dark:hover:text-neutral-200 text-neutral-700 dark:text-neutral-200'
-                : 'underline font-medium'
-            "
-          >
+          <span class="underline font-medium">
             {{ episode.title }}
           </span>
         </div>
       </nuxt-link>
     </div>
     <div
-      class="w-[32rem] bg-[rgb(240,240,240)] dark:bg-neutral-900 px-4 py-8"
-    ></div>
-    <div
-      class="w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
+      class="pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
       <div class="w-[48rem] h-full flex flex-col py-16 justify-between">
         <article class="gap-y-8 flex flex-col">

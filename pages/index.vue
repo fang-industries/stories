@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex w-full">
     <div
-      class="w-[23.6rem] flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="w-96 h-screen flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <nuxt-link
         v-for="episode in episodes"
@@ -22,10 +22,7 @@
       </nuxt-link>
     </div>
     <div
-      class="w-[32rem] bg-[rgb(240,240,240)] dark:bg-neutral-900 px-4 py-8 hidden md:block"
-    ></div>
-    <div
-      class="w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
+      class="pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
       <div
         class="px-8 md:px-0 md:w-[48rem] h-full flex flex-col py-16 justify-between"
