@@ -4,6 +4,7 @@
   >
     <div class="w-[48rem]">
       <Nuxt />
+      <Footer />
     </div>
   </div>
 </template>
