@@ -24,7 +24,7 @@
           class="flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
         >
           <p class="text-sm no-underline dark:text-neutral-500">
-            Episode #{{ episode.num }}
+            Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
           <span class="underline font-medium">
             {{ episode.title }}
@@ -39,7 +39,7 @@
 export default {
   async asyncData({ $content }) {
     const episodes = await $content()
-      .only(["slug", "title", "num"])
+      .only(["slug", "title", "num", "writtenOn"])
       .sortBy("num", "asc")
       .fetch();
     return {

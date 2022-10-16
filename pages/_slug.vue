@@ -17,7 +17,7 @@
           "
         >
           <p class="text-sm no-underline dark:text-neutral-500">
-            Episode #{{ episode.num }}
+            Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
           <span
             :class="
