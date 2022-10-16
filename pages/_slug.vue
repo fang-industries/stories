@@ -12,8 +12,8 @@
         <div
           :class="
             ep === episode.num.toString()
-              ? 'flex flex-col cursor-default py-1 px-2 rounded-lg transition'
-              : 'flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition'
+              ? 'flex flex-col cursor-default p-2 rounded-lg transition'
+              : 'flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition'
           "
         >
           <p class="text-sm no-underline dark:text-neutral-500">
