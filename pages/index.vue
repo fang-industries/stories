@@ -8,7 +8,9 @@
         :to="'/' + episode.slug"
         class="w-fit no-underline"
       >
-        <div class="flex flex-col">
+        <div
+          class="flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
+        >
           <p class="text-sm no-underline dark:text-neutral-500">
             Episode #{{ episode.num }}
           </p>
