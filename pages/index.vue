@@ -21,12 +21,14 @@
       </nuxt-link>
     </div>
     <div
-      class="w-[32rem] bg-[rgb(240,240,240)] dark:bg-neutral-900 px-4 py-8"
+      class="w-[32rem] bg-[rgb(240,240,240)] dark:bg-neutral-900 px-4 py-8 hidden md:block"
     ></div>
     <div
       class="w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
-      <div class="w-[48rem] h-full flex flex-col py-16 justify-between">
+      <div
+        class="px-8 md:px-0 md:w-[48rem] h-full flex flex-col py-16 justify-between"
+      >
         <div class="flex flex-col gap-y-8">
           <h1 class="text-5xl font-semibold text-center">
             <code class="font-medium text-lime-500 dark:text-lime-400"
@@ -69,7 +71,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   async asyncData({ $content }) {
     const episodes = await $content()

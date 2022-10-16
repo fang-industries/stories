@@ -71,7 +71,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   async asyncData({ $content, params }) {
     const episodes = await $content()
