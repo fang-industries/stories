@@ -5,7 +5,7 @@
     >
       <nuxt-link
         v-for="episode in episodes"
-        :to="'/' + episode.slug"
+        :to="'/' + episode.slug + '?ep=' + episode.num"
         class="w-fit no-underline"
       >
         <div
