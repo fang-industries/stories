@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-16 flex w-full flex-col gap-8">
+  <div class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
     <hr class="border-t-2 border-dashed border-neutral-600" />
     <div class="flex justify-between">
       <span class="text-neutral-600 dark:text-neutral-500"
