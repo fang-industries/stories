@@ -34,6 +34,18 @@
     <div
       class="md:pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
+      <div class="md:hidden fixed z-30 bottom-0 w-full">
+        <div
+          class="bg-gradient-to-t w-full from-neutral-900 to-transparent py-8"
+        ></div>
+        <nuxt-link to="/episodes">
+          <div
+            class="bg-neutral-900 w-full text-center py-1 underline text-lime-500"
+          >
+            Show Episodes
+          </div>
+        </nuxt-link>
+      </div>
       <div
         class="md:w-[48rem] px-4 h-full flex flex-col py-8 md:py-16 justify-between"
       >
