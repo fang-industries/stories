@@ -78,7 +78,7 @@ export default {
   async asyncData({ $content, params }) {
     const episodes = await $content()
       .only(["slug", "title", "num"])
-      .sortBy("createdAt", "asc")
+      .sortBy("num", "asc")
       .fetch();
 
     const page = await $content(params.slug).fetch();
