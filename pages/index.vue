@@ -1,12 +1,12 @@
 <template>
   <div class="min-h-screen flex w-full">
     <div
-      class="w-[23.6rem] dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="w-[23.6rem] flex flex-col gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <nuxt-link
         v-for="episode in episodes"
         :to="'/' + episode.slug + '?ep=' + episode.num"
-        class="w-fit no-underline"
+        class="w-full no-underline"
       >
         <div
           class="flex flex-col py-1 px-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
