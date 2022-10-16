@@ -1,7 +1,8 @@
 ---
 title: Tim's Daily Routine
 num: 2
-cowriter: Jovan
+writer: Jason and Jovan
+writtenOn: 15 October 2022
 ---
 
 ### Good morning!

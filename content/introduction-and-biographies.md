@@ -1,6 +1,8 @@
 ---
 title: Introduction and Biographies
 num: 1
+writer: Jason
+writtenOn: 15 October 2022
 ---
 
 ### What would Fang Industries be like as a family?

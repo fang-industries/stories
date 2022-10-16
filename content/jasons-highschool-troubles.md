@@ -1,7 +1,8 @@
 ---
 title: Jason's High School Troubles
 num: 3
-cowriter: Jovan and Tim
+writer: Jovan and Tim
+writtenOn: 16 October 2022
 ---
 
 ### School life
