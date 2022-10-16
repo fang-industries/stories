@@ -35,7 +35,7 @@
       </nuxt-link>
     </div>
     <div
-      class="w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200"
+      class="w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
       <div class="w-[48rem] h-full flex flex-col py-8 justify-between">
         <div class="flex flex-col gap-y-8">
