@@ -92,6 +92,10 @@
 </template>
 
 <script>
+async function headData() {
+  return await $nuxt.$content($nuxt.$route.path.slice(1)).fetch();
+}
+
 export default {
   async asyncData({ $content, params }) {
     const episodes = await $content()
@@ -106,13 +110,10 @@ export default {
       page,
     };
   },
-  computed: {
-    createdAt() {
-      const dateparse = Date.parse(this.page.createdAt);
-      const dateObject = new Date(dateparse);
-      const options = { year: "numeric", month: "long", day: "numeric" };
-      return dateObject.toLocaleDateString("en-UK", options);
-    },
+  head() {
+    return {
+      title: `[Ep. ${this.page.num}] ${this.page.title} - stories.fangdustry.me`,
+    };
   },
   data() {
     return {

@@ -46,5 +46,10 @@ export default {
       episodes,
     };
   },
+  head() {
+    return {
+      title: `Episodes - stories.fangdustry.me`,
+    };
+  },
 };
 </script>
