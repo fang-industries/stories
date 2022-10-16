@@ -1,7 +1,7 @@
 a {
-  @apply underline transition hover:text-indigo-700 dark:hover:text-indigo-200 text-indigo-500 dark:text-indigo-400;
+  @apply underline transition hover:text-lime-700 dark:hover:text-lime-200 text-lime-500 dark:text-lime-400;
 }
 
 p {
-  @apply font-medium text-gray-700 dark:text-gray-300;
+  @apply font-medium text-neutral-700 dark:text-neutral-300;
 }
