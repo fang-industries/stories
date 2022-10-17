@@ -43,11 +43,11 @@
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
         <div
-          class="bg-gradient-to-t w-full from-neutral-900 to-transparent py-8"
+          class="bg-gradient-to-t w-full dark:from-neutral-900 dark:to-transparent from-neutral-50 to-transparent py-8"
         ></div>
         <nuxt-link to="/episodes">
           <div
-            class="bg-neutral-900 w-full text-center py-1 underline text-lime-500"
+            class="dark:bg-neutral-900 bg-neutral-50 w-full text-center py-1 underline text-lime-500"
           >
             Show Episodes
           </div>

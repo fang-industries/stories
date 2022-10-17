@@ -4,11 +4,11 @@
   >
     <div class="fixed z-30 bottom-0 w-screen">
       <div
-        class="bg-gradient-to-t w-full from-neutral-900 to-transparent py-8"
+        class="bg-gradient-to-t w-full dark:from-neutral-900 dark:to-transparent from-neutral-50 to-transparent py-8"
       ></div>
       <button
         @click="$router.go(-1)"
-        class="bg-neutral-900 w-full text-center py-1 underline text-lime-500"
+        class="dark:bg-neutral-900 bg-neutral-50 w-full text-center py-1 underline text-lime-500"
       >
         Hide Episodes
       </button>
@@ -30,7 +30,7 @@
         <div
           class="flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
         >
-          <p class="text-sm no-underline dark:text-neutral-500">
+          <p class="text-sm no-underline text-neutral-500">
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
           <span class="underline font-medium">
