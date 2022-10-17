@@ -40,40 +40,52 @@
       <div
         class="px-4 md:px-4 md:w-[48rem] h-full flex flex-col py-8 md:py-16 justify-between"
       >
-        <div class="flex flex-col gap-y-8">
-          <h1
-            class="text-4xl md:text-5xl font-semibold text-center text-lime-500"
-          >
-            Hello there!
-          </h1>
+        <div class="flex flex-col gap-y-16">
           <div class="flex flex-col gap-y-4">
-            <h3 class="text-3xl font-semibold">
-              Welcome to the more fictional side of our minds.
-            </h3>
+            <h1 class="text-4xl font-semibold text-lime-500">Hello there!</h1>
             <p>
-              This is a place where we can let our imaginations run wild and
-              write stories.
+              Welcome to
+              <a href="https://stories.fangdustry.me">stories.fangdustry.me</a>!
+              - a place where we write fictional stories of what we would be
+              like as a family.
             </p>
-            <p>These stories pictures a group of 10 friends, as a family.</p>
-            <p>For the best experience, please read all stories.</p>
           </div>
           <div class="flex flex-col gap-y-4">
-            <h3 class="text-3xl font-semibold">Contribution and submissions</h3>
-            <p>
-              Contributions for fixes on spelling and grammatical errors are
-              welcome via pull requests. Otherwise, you can submit them through
-              the issues page of this repository.
-            </p>
-            <p>
-              To submit a story idea, you can submit them on the issues page of
-              this repository.
-            </p>
-            <p>
-              A link to this repository
-              <a href="https://github.com/fang-industries/stories"
-                >can be found here</a
-              >.
-            </p>
+            <h3 class="text-2xl font-medium">
+              Welcome to the more fictional side of our minds.
+            </h3>
+            <div
+              class="gap-y-2 flex flex-col text-neutral-600 dark:text-neutral-300"
+            >
+              <p>
+                This is a place where we can let our imaginations run wild and
+                write stories.
+              </p>
+              <p>These stories pictures a group of 10 friends, as a family.</p>
+              <p>For the best experience, please read all stories.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-4">
+            <h3 class="text-2xl font-medium">Contribution and submissions</h3>
+            <div
+              class="gap-y-2 flex flex-col text-neutral-600 dark:text-neutral-300"
+            >
+              <p>
+                Contributions for fixes on spelling and grammatical errors are
+                welcome via pull requests. Otherwise, you can submit them
+                through the issues page of this repository.
+              </p>
+              <p>
+                To submit a story idea, you can submit them on the issues page
+                of this repository.
+              </p>
+              <p>
+                A link to this repository
+                <a href="https://github.com/fang-industries/stories"
+                  >can be found here</a
+                >.
+              </p>
+            </div>
           </div>
         </div>
         <Footer />
