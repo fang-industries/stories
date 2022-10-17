@@ -88,7 +88,7 @@
             </div>
           </div>
           <div class="flex flex-col gap-y-4">
-            <h3 class="text-3xl font-semibold">A thanks to our sponsor</h3>
+            <h3 class="text-2xl font-semibold">A thanks to our sponsor</h3>
             <p>
               RAID: Shadow Legends™ is an immersive online experience with
               everything you'd expect from a brand new RPG title. It's got an
