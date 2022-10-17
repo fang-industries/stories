@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div
+    class="dark:selection:bg-lime-400 dark:selection:text-neutral-800 selection:bg-lime-600 selection:text-neutral-200"
+  >
     <div class="fixed z-30 bottom-0 w-screen">
       <div
         class="bg-gradient-to-t w-full from-neutral-900 to-transparent py-8"

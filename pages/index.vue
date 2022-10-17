@@ -1,5 +1,7 @@
 <template>
-  <div class="min-h-screen flex w-full">
+  <div
+    class="min-h-screen flex w-full dark:selection:bg-lime-400 dark:selection:text-neutral-800 selection:bg-lime-600 selection:text-neutral-200"
+  >
     <div
       class="z-40 hidden md:flex w-96 h-screen flex-col rounded-r-3xl shadow-lg gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
@@ -45,7 +47,7 @@
       <div
         class="px-4 md:px-4 md:w-[48rem] h-full flex flex-col py-8 md:py-16 justify-between"
       >
-        <div class="flex flex-col gap-y-16">
+        <div class="flex flex-col gap-y-8 md:gap-y-16">
           <div class="flex flex-col gap-y-4">
             <h1 class="text-4xl font-semibold text-lime-500">Hello there!</h1>
             <p>
@@ -94,7 +96,7 @@
           </div>
           <div class="flex flex-col gap-y-4">
             <h3 class="text-2xl font-semibold">A thanks to our sponsor</h3>
-            <p>
+            <p class="text-neutral-600 dark:text-neutral-300">
               RAID: Shadow Legends™ is an immersive online experience with
               everything you'd expect from a brand new RPG title. It's got an
               amazing storyline, awesome 3D graphics, giant boss fights, PVP
@@ -103,7 +105,7 @@
               out of a mobile game. Look how crazy the level of detail is on
               these champions!
             </p>
-            <p>
+            <p class="text-neutral-600 dark:text-neutral-300">
               RAID: Shadow Legends™️ is getting big real fast, so you should
               definitely get in early. Starting now will give you a huge head
               start. There's also an upcoming Special Launch Tournament with

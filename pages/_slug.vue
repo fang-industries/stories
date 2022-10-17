@@ -1,5 +1,7 @@
 <template>
-  <div class="min-h-screen flex w-full">
+  <div
+    class="min-h-screen flex w-full dark:selection:bg-lime-400 dark:selection:text-neutral-800 selection:bg-lime-600 selection:text-neutral-200"
+  >
     <div
       class="w-96 h-screen hidden md:flex flex-col gap-y-4 rounded-r-3xl shadow-lg dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
