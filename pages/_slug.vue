@@ -12,8 +12,8 @@
         <div
           :class="
             ep === episode.num.toString()
-              ? 'flex flex-col p-2 rounded-lg dark:bg-neutral-800 bg-neutral-200 dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition'
-              : 'flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition'
+              ? 'flex flex-col p-2 rounded-lg dark:bg-neutral-800 dark:hover:bg-neutral-700 hover:bg-neutral-300 bg-neutral-200 dark:hover:bg-opacity-60 hover:bg-opacity-20 transition'
+              : 'flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-60 hover:bg-opacity-20 transition'
           "
         >
           <p class="text-sm no-underline dark:text-neutral-500">
@@ -46,69 +46,74 @@
           </div>
         </nuxt-link>
       </div>
-      <div
-        class="md:w-[48rem] px-4 h-full flex flex-col py-8 md:py-16 justify-between"
-      >
-        <article class="gap-y-8 flex flex-col">
-          <div class="flex flex-col gap-y-2">
-            <h1 class="mb-2 text-4xl md:text-5xl font-semibold">
-              {{ page.title }}
-            </h1>
-            <div class="flex space-x-2 text-neutral-500">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-5 h-5 my-auto"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
-                />
-              </svg>
+      <transition name="story" mode="out-in" appear>
+        <div
+          id="ep"
+          class="md:w-[48rem] px-4 h-full flex flex-col py-8 md:py-16 justify-between"
+        >
+          <article class="gap-y-8 flex flex-col">
+            <div class="flex flex-col gap-y-2">
+              <h1 class="mb-2 text-4xl md:text-5xl font-semibold">
+                {{ page.title }}
+              </h1>
+              <div class="flex space-x-2 text-neutral-500">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-5 h-5 my-auto"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+                  />
+                </svg>
 
-              <span class="my-auto">Written by {{ page.writer }}</span>
+                <span class="my-auto">Written by {{ page.writer }}</span>
+              </div>
+              <div class="mb-1 flex space-x-2 text-neutral-500">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="my-auto h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span class="my-auto"
+                  >{{ page.writtenOn }} &bull;
+                  {{ page.readingStats.text }}</span
+                >
+              </div>
             </div>
-            <div class="mb-1 flex space-x-2 text-neutral-500">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="my-auto h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <span class="my-auto"
-                >{{ page.writtenOn }} &bull; {{ page.readingStats.text }}</span
-              >
+            <nuxt-content
+              :document="page"
+              class="prose dark:prose-invert prose-neutral max-w-none prose-h1:mb-2 prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-p:mb-1 dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
+            />
+          </article>
+          <footer class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
+            <hr class="border-t-2 border-dashed border-neutral-600" />
+            <div class="flex justify-between">
+              <span class="text-neutral-600 dark:text-neutral-500"
+                >{{ page.readingStats.words.toLocaleString("en-GB") }} words
+              </span>
+              <span
+                class="text-neutral-600 dark:text-neutral-500 hidden md:block"
+                >Copyright © 2022 Fang Industries, inc.
+              </span>
             </div>
-          </div>
-          <nuxt-content
-            :document="page"
-            class="prose dark:prose-invert prose-neutral max-w-none prose-h1:mb-2 prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-p:mb-1 dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
-          />
-        </article>
-        <footer class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
-          <hr class="border-t-2 border-dashed border-neutral-600" />
-          <div class="flex justify-between">
-            <span class="text-neutral-600 dark:text-neutral-500"
-              >{{ page.readingStats.words.toLocaleString("en-GB") }} words
-            </span>
-            <span class="text-neutral-600 dark:text-neutral-500 hidden md:block"
-              >Copyright © 2022 Fang Industries, inc.
-            </span>
-          </div>
-        </footer>
-      </div>
+          </footer>
+        </div>
+      </transition>
     </div>
   </div>
 </template>
