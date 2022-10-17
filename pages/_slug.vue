@@ -53,10 +53,12 @@
         >
           <article class="gap-y-8 flex flex-col">
             <div class="flex flex-col gap-y-2">
-              <h1 class="mb-2 text-4xl md:text-5xl font-semibold">
+              <h1 class="mb-2 text-4xl font-semibold">
                 {{ page.title }}
               </h1>
-              <div class="flex space-x-2 text-neutral-500">
+              <div
+                class="flex space-x-2 text-neutral-500 dark:text-neutral-400"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -74,7 +76,9 @@
 
                 <span class="my-auto">Written by {{ page.writer }}</span>
               </div>
-              <div class="mb-1 flex space-x-2 text-neutral-500">
+              <div
+                class="mb-1 flex space-x-2 text-neutral-500 dark:text-neutral-400"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="my-auto h-5 w-5"
@@ -97,7 +101,7 @@
             </div>
             <nuxt-content
               :document="page"
-              class="prose dark:prose-invert prose-neutral max-w-none prose-h1:mb-2 prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-p:mb-1 dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
+              class="prose dark:prose-invert prose-neutral max-w-none prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-2xl prose-h4:text-xl dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
             />
           </article>
           <footer class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
