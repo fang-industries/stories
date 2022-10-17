@@ -3,6 +3,11 @@
     <div
       class="z-40 hidden md:flex w-96 h-screen flex-col rounded-r-3xl shadow-lg gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
+      <h4
+        class="text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
+      >
+        Episode Index — {{ episodes.length }}
+      </h4>
       <nuxt-link
         v-for="episode in episodes"
         :key="episode.num"
@@ -12,7 +17,7 @@
         <div
           class="flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
         >
-          <p class="text-sm no-underline dark:text-neutral-500">
+          <p class="text-sm no-underline text-neutral-500">
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
           <span class="underline font-medium">
