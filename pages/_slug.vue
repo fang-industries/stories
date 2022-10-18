@@ -56,7 +56,7 @@
       <transition name="story" mode="out-in" appear>
         <div
           id="ep"
-          class="md:w-[48rem] px-8 h-full flex flex-col py-8 md:py-16 justify-between"
+          class="md:w-[48rem] px-4 md:px-8 h-full flex flex-col py-8 md:py-16 justify-between"
         >
           <article class="gap-y-8 flex flex-col">
             <div class="flex flex-col gap-y-2">
