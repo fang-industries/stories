@@ -28,7 +28,7 @@
           </p>
           <span
             :class="
-              ep === episode.num.toString()
+              ep.slice(9) === episode.num.toString()
                 ? 'no-underline font-medium hover:text-neutral-700 dark:hover:text-neutral-200 text-neutral-700 dark:text-neutral-200'
                 : 'underline font-medium'
             "
