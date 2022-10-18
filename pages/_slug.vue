@@ -39,7 +39,7 @@
       </nuxt-link>
     </div>
     <div
-      class="md:pl-96 w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
+      class="md:pl-96 2xl:pl-[28rem] w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
         <div
