@@ -14,7 +14,7 @@
       </button>
     </div>
     <div
-      class="h-screen w-screen flex-col gap-y-4 flex dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 overflow-y-auto"
+      class="h-screen w-screen flex-col gap-y-4 flex dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 md:px-8 py-8 md:py-16 overflow-y-auto"
     >
       <h4
         class="text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
