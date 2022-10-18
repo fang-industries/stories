@@ -1,6 +1,6 @@
 ---
 title: Jason's High School Troubles
-num: 3
+num: 2
 writer: Jovan and Tim
 writtenOn: 16 October 2022
 ---

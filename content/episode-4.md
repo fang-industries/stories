@@ -1,6 +1,6 @@
 ---
 title: Bri's Embarassment
-num: 5
+num: 4
 writer: "Jason and Jovan"
 writtenOn: 17 October 2022
 ---
