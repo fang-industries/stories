@@ -45,7 +45,7 @@
       </div>
 
       <div
-        class="px-4 md:px-4 md:w-[48rem] h-full flex flex-col py-8 md:py-16 justify-between"
+        class="px-4 md:px-8 md:w-[48rem] h-full flex flex-col py-8 md:py-16 justify-between"
       >
         <div class="flex flex-col gap-y-8 md:gap-y-16">
           <div class="flex flex-col gap-y-4">
