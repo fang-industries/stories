@@ -3,7 +3,7 @@
     class="min-h-screen flex w-full dark:selection:bg-lime-400 dark:selection:text-neutral-800 selection:bg-lime-600 selection:text-neutral-200"
   >
     <div
-      class="z-40 hidden md:flex w-96 h-screen flex-col rounded-r-3xl shadow-lg gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="z-40 hidden md:flex w-96 2xl:w-[28rem] 3xl:w-[32rem] h-screen flex-col rounded-r-3xl shadow-lg gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <h4
         class="text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
