@@ -6,7 +6,7 @@
       class="w-96 2xl:w-[28rem] h-screen hidden md:flex flex-col gap-y-4 rounded-r-3xl shadow-lg dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <h4
-        class="text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
+        class="font-display text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
       >
         Episode Index — {{ episodes.length }}
       </h4>
@@ -60,7 +60,7 @@
         >
           <article class="gap-y-8 flex flex-col">
             <div class="flex flex-col gap-y-2">
-              <h1 class="mb-2 text-4xl font-semibold">
+              <h1 class="mb-2 text-4xl font-bold font-display">
                 {{ page.title }}
               </h1>
               <div
@@ -108,7 +108,7 @@
             </div>
             <nuxt-content
               :document="page"
-              class="prose dark:prose-invert prose-neutral max-w-none prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-2xl prose-h4:text-xl dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
+              class="prose dark:prose-invert prose-neutral max-w-none prose-h1:text-3xl prose-h1:font-display prose-h2:font-display prose-h3:font-display prose-h4:font-display prose-h5:font-display prose-h2:text-2xl prose-h3:text-2xl prose-h4:text-xl dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
             />
           </article>
           <footer class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
