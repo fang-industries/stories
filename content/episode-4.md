@@ -1,5 +1,5 @@
 ---
-title: Bri's Embarassment
+title: Bri's Embarrassment
 num: 4
 writer: "Jason and Jovan"
 writtenOn: 17 October 2022
@@ -19,7 +19,7 @@ The school bell rings! It's time for school! She gets to her first lesson, Socia
 
 "Ughhh, social studies.", her classmates groaned.
 
-She does her work as usual, is there much to say about school anyways? Class eventually passes by and the first break comes! It's time to embarass her friend on her birthday. Bri and Evan prepares the embarrassing presentation. They have a blast presenting about it in front of everyone. Even though it was really incriminating, everyone had a good laugh at the end.
+She does her work as usual, is there much to say about school anyways? Class eventually passes by and the first break comes! It's time to embarrass her friend on her birthday. Bri and Evan prepares the embarrassing presentation. They have a blast presenting about it in front of everyone. Even though it was really incriminating, everyone had a good laugh at the end.
 
 Bri hands her friend the present she prepared and a drawing of her. The rest of the class sings happy birthday and gives presents. The rest of school went out monotone, just task after task. She feels trapped and unhappy being at school, she dreams being a free-lance artist. She rolls her eyes and continues to jot down notes, brushing off her thoughts.
 
