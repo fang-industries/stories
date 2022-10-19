@@ -25,9 +25,9 @@
         <p
           :class="
             (alignment === 'right'
-              ? 'from-lime-500 to-lime-600'
-              : 'dark:from-neutral-600 dark:to-neutral-700') +
-            ' w-fit py-2 px-4 rounded-xl text-neutral-100 bg-gradient-to-br my-auto'
+              ? 'dark:bg-lime-600 bg-lime-400'
+              : 'dark:bg-neutral-700 bg-neutral-200') +
+            ' w-fit py-2 px-4 rounded-xl text-neutral-100 my-auto'
           "
         >
           <slot />
