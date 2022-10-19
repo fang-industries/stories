@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col gap-y-8 py-8 my-8 border-y-2 dark:border-neutral-600 border-neutral-500"
+    class="flex flex-col gap-y-8 py-8 my-8 border-y-2 dark:border-neutral-600 border-neutral-400"
   >
     <div class="flex flex-col gap-y-1">
       <span
