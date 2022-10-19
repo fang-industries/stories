@@ -35,9 +35,14 @@ The lunch bell rings. He goes to his last class of the day, physics. Physics cla
 
 He packs up his bag and waves goodbye to his teacher and friends. As he goes down the stairs, headed for the computer lab; he pulls out his phone and receives a text from Jason.
 
-_"yo, wait at the lab as usual, ill be out at 4 today, gotta study lmao"_
-
-"ok", he responds.
+<message-container platform="Text Message" time="Today at 13:17">
+<message contact="Jason" alignment="left" img="https://fangdustry.me/assets/jason.929209c1.png">
+yo, wait at the lab as usual, ill be out at 4 today, gotta study lmao
+</message>
+<message contact="Evan" alignment="right" img="https://fangdustry.me/assets/evan.ad68993e.png">
+ok
+</message>
+</message-container>
 
 Evan waits, and waits. Eventually he gets tired and decides to go to a local mini-market to grab something to drink. He sees Bri there, too, also picking up something to drink.
 
