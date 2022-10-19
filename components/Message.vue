@@ -9,7 +9,7 @@
       <span
         :class="
           (alignment === 'right' ? 'pr-12 pl-2 text-right' : 'pl-12 pr-2') +
-          '  text-neutral-500 text-sm pb-2 bg-gradient-to-br'
+          '  dark:text-neutral-500 text-neutral-600 text-sm pb-2 bg-gradient-to-br'
         "
       >
         {{ contact }}
