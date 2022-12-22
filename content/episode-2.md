@@ -11,7 +11,7 @@ It's 5:00 AM. Tim's alarm blares as he suddenly wakes up, feeling bogged, he was
 
 He starts his Honda, and warms up the vehicle. As he waits for everyone to get ready, he plugs in his phone to the car, and jams to Porter Robinson in the car, relating to the lyrics; in hope of a change.
 
-On his trip to the office, he gets stuck at the highway; he slams his hand on to the steering wheel with rage as he curses out harsh profanity to the car infront. He gulps down the rest of the coffee, turn up his music and drives the wrong lane as a shortcut. He pushes down the pedal and drives in to the right lane.
+On his trip to the office, he gets stuck at the highway; he slams his hand on to the steering wheel with rage as he curses out harsh profanity to the car in-front. He gulps down the rest of the coffee, turn up his music and drives the wrong lane as a shortcut. He pushes down the pedal and drives in to the right lane.
 
 ### A stressful afternoon awaits
 
@@ -27,25 +27,25 @@ He arrives back at home, late at 11 o'clock, feeling anguished and exhausted aft
 
 ### Wholesome brother-hood
 
-Jason walks in the porch — "You good Tim? Why are you here? Shouldn't you be asleep?", he asks.
+Jason walks in the porch — “You good Tim? Why are you here? Shouldn't you be asleep?”, he asks.
 
-"Oh, it's nothing, don't worry. You should go back to sleep", Tim responds.
+“Oh, it's nothing, don't worry. You should go back to sleep”, Tim responds.
 
-Jason: _"I can clearly see you in tears, Tim. Just tell me what's wrong."_
+Jason: _“I can clearly see you in tears, Tim. Just tell me what's wrong.”_
 
-Tim: _"I... just want to feel free."_
+Tim: _“I... just want to feel free.”_
 
-Tim: _"Everyday, I go through my job. 5 to 11, sometimes I feel I just wanna collapse and curl up in to tears. But I know I can't do that, because then there would be no-one to take care of you guys, and you all, mean the world to me."_
+Tim: _“Everyday, I go through my job. 5 to 11, sometimes I feel I just wanna collapse and curl up in to tears. But I know I can't do that, because then there would be no-one to take care of you guys, and you all, mean the world to me.”_
 
-Tim: _"Do me a favour please, take care of your brothers and sisters if I am gone, okay? It's the only thing I'm asking for."_
+Tim: _“Do me a favour please, take care of your brothers and sisters if I am gone, okay? It's the only thing I'm asking for.”_
 
-Jason: _"Of course dude, I promise."_
+Jason: _“Of course dude, I promise.”_
 
-Tim: _"Thank you so much. I appreciate it."_
+Tim: _“Thank you so much. I appreciate it.”_
 
 Jason reaches in for a hug, comforting Tim in the process.
 
-Jason whispers an "I love you, bro" in Tim's ears, he lets out a tear in his left eye knowing that deep down, he already has everything he wants.
+Jason whispers an “I love you, bro” in Tim's ears, he lets out a tear in his left eye knowing that deep down, he already has everything he wants.
 
 Tim heads off to bed, feeling comforted in a way he hasn't felt in a long, long time.
 

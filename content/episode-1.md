@@ -30,7 +30,7 @@ Jason is passionate, kind and has a secret artistic side. He may seem cool and c
 
 He often overthinks over the smallest things and thinks he's doing something wrong, when in reality he isn't. He loves being reassured and loved but feels as if he could never be and that if he ever was, people would try to ruin his relationship.
 
-He has been through a lot of tough times, but with the help of his siblings, are able to get through all of them. If you ever go out with Jason, be prepared for "I love you so much" every single day.
+He has been through a lot of tough times, but with the help of his siblings, are able to get through all of them. If you ever go out with Jason, be prepared for “I love you so much” every single day.
 
 ### Up next, Evan!
 

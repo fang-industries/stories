@@ -11,13 +11,13 @@ It's 5:45 AM. The morning starts with Jason barging into the room and telling ev
 
 As she waits for everyone else to get ready, she watches the sunrise from Tim's car. She has a feeling that a great day awaits her today. Everyone eventually gets ready and gets on the car, and Tim drops Bri and Evan at school.
 
-"I'll see you after school.", said Evan.
+“I'll see you after school.”, said Evan.
 
 They both split ways and go to their individual classes. There, she was greeted by Cha, her best friend. She puts her bag down and talks to her about the upcoming day today. Bri is really excited for today; it's her friends birthday and she gets the chance to present an embarrassing presentation for her friend.
 
 The school bell rings! It's time for school! She gets to her first lesson, Social Studies.
 
-"Ughhh, social studies.", her classmates groaned.
+“Ughhh, social studies.”, her classmates groaned.
 
 She does her work as usual, is there much to say about school anyways? Class eventually passes by and the first break comes! It's time to embarrass her friend on her birthday. Bri and Evan prepares the embarrassing presentation. They have a blast presenting about it in front of everyone. Even though it was really incriminating, everyone had a good laugh at the end.
 
@@ -27,9 +27,9 @@ Bri hands her friend the present she prepared and a drawing of her. The rest of 
 
 The lunch bell finally rings! It's time for lunch, hurray!
 
-"Hey Bri, wanna sit at the corner with us?" Cha asks.
+“Hey Bri, wanna sit at the corner with us?” Cha asks.
 
-"Sure!" Bri responds.
+“Sure!” Bri responds.
 
 Out of the corner of her eye, she sees Evan being bullied by a group of people. He's being pinned to the seat and is being threatened to give his notes for an exam he has tomorrow.
 
@@ -39,15 +39,15 @@ She walks in to the scene for a closer look. She readies her fist and punches th
 
 Cha, in the distance, witnesses the whole situation
 
-"What happened back there? Why the hell did you punch that guy?", Cha asks in a concerned tone.
+“What happened back there? Why the hell did you punch that guy?”, Cha asks in a concerned tone.
 
-"Oh him? He was being a asshole to Evan.", Bri answers.
+“Oh him? He was being a asshole to Evan.”, Bri answers.
 
-"Why would you get yourself in trouble just for him? He's a total wimp.", Cha rolls her eyes.
+“Why would you get yourself in trouble just for him? He's a total wimp.”, Cha rolls her eyes.
 
-"What? He's my brother, of course I'd defend him?", Bri responds, annoyed.
+“What? He's my brother, of course I'd defend him?”, Bri responds, annoyed.
 
-"Alright, alright. Shall we eat?", Cha asked.
+“Alright, alright. Shall we eat?”, Cha asked.
 
 They gladly enjoyed their lunch and continues on their routine. Although Bri can't help but feel a bit iffy about Cha's response to her defending Evan, but again, she shrugs it off.
 
@@ -55,29 +55,29 @@ They gladly enjoyed their lunch and continues on their routine. Although Bri can
 
 The lunch bell rings, again. Bri goes to her last class of the day, Mandarin. There's a speaking test today; she has to try and pronounce the sentences on her text book.
 
-"我吃狗了", Bri said proudly.
+“我吃狗了", Bri said proudly.
 
-The whole class looks at her in shock. "Does she know what she just said?", her friends whispered. The mandarin teacher raises her eyebrows, perplexed by such vile statement, although Bri doesn't seem to realize what she said.
+The whole class looks at her in shock. “Does she know what she just said?", her friends whispered. The mandarin teacher raises her eyebrows, perplexed by such vile statement, although Bri doesn't seem to realise what she said.
 
-"You ate the dog?!", her teacher asked.
+“You ate the dog?!”, her teacher asked.
 
-"What? No! That's not what I meant! I meant to say that I ate enough." Bri responds quickly.
+“What? No! That's not what I meant! I meant to say that I ate enough.” Bri responds quickly.
 
-"That isn't how you pronounce it. Enough is "够", what you said was "狗", which means dog.", her teacher said.
+“That isn't how you pronounce it. Enough is "够", what you said was "狗", which means dog.”, her teacher said.
 
-"Oh sh-", Bri responded.
+“Oh sh-”, Bri responded.
 
-"Excuse me?" The teacher cuts Bri off.
+“Excuse me?” The teacher cuts Bri off.
 
-"对不鸡, 老师", Bri responded.
+“对不鸡, 老师”, Bri responded.
 
-"你说什么? 你的意思是对不起不是对不鸡" the teacher scolds.
+“你说什么? 你的意思是对不起不是对不鸡” the teacher scolds.
 
 Mandarin class goes smoothly, except for those incidents. Well, that was embarassing..
 
 The class finally ends and the school bell rings. She packs up her bag and greets her teacher goodbye, butchering some pronounciation in the way.
 
-"谢谢老师； 谢谢你教我们", the class said in union.
+“谢谢老师； 谢谢你教我们”, the class said in union.
 
 As she goes down the stairs, she receives a message from Jason.
 
@@ -106,7 +106,7 @@ They stay outside near Jason's car, waiting for him to finish studying. Eventual
 
 Jason finally reaches the last destination, home. They go in their apartment building and go to their unit.
 
-"Ah, home sweet home.", Bri said on her mind.
+“Ah, home sweet home.”, Bri said on her mind.
 
 She goes to the bathroom and takes a quick shower. Then, she cleans her room and plays a couple maps on Project Sekai, her favourite game.
 
@@ -120,12 +120,12 @@ Then suddenly, Evan speaks.
 
 In her heart, she scoffs this matter off. Tim hasn't eaten a proper dinner with them for around two weeks now nor did they ever have a serious conversation between them. All she could think about was how she was going to pull her new art commission business off. She finishes her plate and walks away from the table. Evan gives a concerned look but doesn't seem to be bothered to talk to her about it.
 
-"Can you help me do the dishes today, Bri?", Jason asked.
+“Can you help me do the dishes today, Bri?”, Jason asked.
 
-"Sure.", Bri said reluctantly.
+“Sure.”, Bri said reluctantly.
 
 After washing the dishes, she goes to her room and does her homework for tomorrow. After that, she packs her bag for tomorrow and finishes some art requests. She closes off the day by playing another map on Ensemble Stars, and goes to sleep after.
 
 She closes her eyes while lying down on her bed, feeling nothing. A last sigh comes out of her breath.
 
-"Goodnight.", she thought to herself, as she drifted off to sleep; the only place where she can gets peace.
+“Goodnight.”, she thought to herself, as she drifted off to sleep; the only place where she can gets peace.
