@@ -35,7 +35,7 @@ Out of the corner of her eye, she sees Evan being bullied by a group of people. 
 
 She walks in to the scene for a closer look. She readies her fist and punches the bully's face, giving them a black eye. The rest of the bullies laughs at the injured guy for falling.
 
-...
+…
 
 Cha, in the distance, witnesses the whole situation
 
@@ -94,13 +94,13 @@ Instead of accompanying Evan however, she decides to go and hangout with some of
 
 After her friends have left, she decides to go to a local mini-market to grab something. She sees Evan out of the corner of her eye.
 
-...
+…
 
 Evan and Bri goes to Jason's library to tease him and drag him. They both decide to pull a prank on Jason, but as they were doing that, the librarian kicks both of them out for disturbing the peace. Bri can't stop laughing after what had happened, she runs out of breath and almost collapse on the floor out of laughter,
 
 They stay outside near Jason's car, waiting for him to finish studying. Eventually, Jason finally finishes studying and picks up the rest of his siblings.
 
-...
+…
 
 ### The comfort of home
 
@@ -116,7 +116,7 @@ Jason, along with the other boys, arrive home. He quickly prepares a dinner for 
 
 Then suddenly, Evan speaks.
 
-...
+…
 
 In her heart, she scoffs this matter off. Tim hasn't eaten a proper dinner with them for around two weeks now nor did they ever have a serious conversation between them. All she could think about was how she was going to pull her new art commission business off. She finishes her plate and walks away from the table. Evan gives a concerned look but doesn't seem to be bothered to talk to her about it.
 

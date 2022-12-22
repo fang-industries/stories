@@ -58,7 +58,7 @@ He tries to help out his siblings, but sometimes he pushes the offer a bit too m
 
 Although he may come off as a jerk to some at times, and his jokes may be inappropriate, there's a compassionate gentleman inside; and is simply what makes Nicholas, himself. He's great at playing the piano and enjoys playing pieces for people he cares about.
 
-### Moving right along to Antonio...
+### Moving right along to Antonio…
 
 Being the youngest in the family, he doesn't have a single responsibility and plays _Minecraft_ all day. He wakes up and goes to school each day, making rap battles everyday with his friends at the canteen and always talks about how he hates school.
 
@@ -72,7 +72,7 @@ He's very smart, but he can sometimes act like a know-it all. He's a huge geogra
 
 Jovannes will always be there for you; supporting you every step of the way, no matter how ridiculous it is. He's a great person to talk and vent to, and tries to help out whenever possible. Although he may sometimes be a tease, shipping you with people you like; it's impossible to hate him for that because he's a genuinely great guy.
 
-### Moving right along to Tristan...
+### Moving right along to Tristan…
 
 Tristan, being the average 13-year-old he is, he enjoys playing games all day and going out with his friends all day. His genuine smile happens very rarely, and only happens when he's enjoying his time with his friends or siblings.
 

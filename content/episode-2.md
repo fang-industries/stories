@@ -23,7 +23,7 @@ Lunch break at last, he rushes down the elevator and grabs a footlong sandwich. 
 
 Work ends at 20:00 after overtime. he walks out of the office and breathes a sigh of relief. He walks to his car and goes to the diner across to get some dinner. He wishes for a day where he can have some one to sit across the table to talk to, but such a fantasy seems impossible to him.
 
-He arrives back at home, late at 11 o'clock, feeling anguished and exhausted after the long day. He makes sure everyone is asleep before sitting on the front porch, admiring the city skylines from a view. He breaks in to a slight tear, wishing he would escape his infinite cycle of hell. He sighs and is about to walk back until...
+He arrives back at home, late at 11 o'clock, feeling anguished and exhausted after the long day. He makes sure everyone is asleep before sitting on the front porch, admiring the city skylines from a view. He breaks in to a slight tear, wishing he would escape his infinite cycle of hell. He sighs and is about to walk back until…
 
 ### Wholesome brother-hood
 
@@ -33,7 +33,7 @@ Jason walks in the porch — “You good Tim? Why are you here? Shouldn't you be
 
 Jason: _“I can clearly see you in tears, Tim. Just tell me what's wrong.”_
 
-Tim: _“I... just want to feel free.”_
+Tim: _“I… just want to feel free.”_
 
 Tim: _“Everyday, I go through my job. 5 to 11, sometimes I feel I just wanna collapse and curl up in to tears. But I know I can't do that, because then there would be no-one to take care of you guys, and you all, mean the world to me.”_
 
