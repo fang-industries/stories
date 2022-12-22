@@ -1,131 +1,137 @@
 ---
-title: Bri's Embarrassment
+title: Evan's Hectic Day
 num: 4
-writer: "Jason and Jovan"
-writtenOn: 17 October 2022
+writer: "Jason, Jovan and Nadine"
+writtenOn: 16 October 2022
 ---
 
-### An exciting morning
+### Good morning, lads!
 
-It's 5:45 AM. The morning starts with Jason barging into the room and telling everyone to wake up. She gets up immediately and goes to the bathroom and takes a shower. She puts on her clothes and goes down for breakfast. It's a slice of left-over pizza. She goes back to her room and packs up her bag for today.
+The day begins with Jason opening the door and calling everyone to get up. Evan, with his eyes barely opened covers his head with his pillow. Before he could fall asleep, he gets tickled by Jason and is awoken, really pissed though.
 
-As she waits for everyone else to get ready, she watches the sunrise from Tim's car. She has a feeling that a great day awaits her today. Everyone eventually gets ready and gets on the car, and Tim drops Bri and Evan at school.
+He finally manages to gather enough strength to get up and shower, and gets dressed in his school uniform in a rush. "Beau'iful day today, innit?", he says while mocking the British accent. The others just raise an eyebrow at him, in confusion.
 
-"I'll see you after school.", said Evan.
+Evan packs his bag in a hurry, and goes downstairs to eat a slice of left-over pizza. He takes a quick look at his notes while waiting for Tim to start up the car; he has a big test today and he wants to make sure he's prepared. At last, he finally gets ready for school and puts on his shoes.
 
-They both split ways and go to their individual classes. There, she was greeted by Cha, her best friend. She puts her bag down and talks to her about the upcoming day today. Bri is really excited for today; it's her friends birthday and she gets the chance to present an embarrassing presentation for her friend.
+### A stressful test awaits
 
-The school bell rings! It's time for school! She gets to her first lesson, Social Studies.
+He enters the class and is swarmed by people asking for yesterday's homework answers. Being the goody two shoes he is, he turns down everyone. School starts with a boring literature class, where everyone's distracted. The teacher relies on Evan to make everyone pay attention, although he doesn't seem to bother doing so.
 
-"Ughhh, social studies.", her classmates groaned.
+The test begins, everyone sweats off struggling while Evan scans through with a breeze and pass with flying colours. As usual, Evan gets the award for the top student. Feeling great, he goes calling everyone saying they have a major skill issue, like the brat he is.
 
-She does her work as usual, is there much to say about school anyways? Class eventually passes by and the first break comes! It's time to embarrass her friend on her birthday. Bri and Evan prepares the embarrassing presentation. They have a blast presenting about it in front of everyone. Even though it was really incriminating, everyone had a good laugh at the end.
+### Nom-nom-nom time
 
-Bri hands her friend the present she prepared and a drawing of her. The rest of the class sings happy birthday and gives presents. The rest of school went out monotone, just task after task. She feels trapped and unhappy being at school, she dreams being a free-lance artist. She rolls her eyes and continues to jot down notes, brushing off her thoughts.
+Lunch break comes. A group of people approach him and pins him to the seat. They tease him and threatens to hurt him if he doesn't handover his notes for tomorrow's exam. He reluctantly gives them the note.
 
-### A not-so average lunch time
+Bri walks in and witnesses this. She readies her fist and blows a punch to the bully's face, giving them a black eye. The rest of the bullies laughs at the injured guy for falling.
 
-The lunch bell finally rings! It's time for lunch, hurray!
+"Back off, you little cunt. Only I'm allowed to bully my siblings.", she said fiercely.
 
-"Hey Bri, wanna sit at the corner with us?" Cha asks.
+"Oh, thanks.", he whispered. He then runs off.
 
-"Sure!" Bri responds.
+### Back to class
 
-Out of the corner of her eye, she sees Evan being bullied by a group of people. He's being pinned to the seat and is being threatened to give his notes for an exam he has tomorrow.
+The lunch bell rings. He goes to his last class of the day, physics. Physics class goes smoothly, since it was his favourite subject. Time goes really fast without Evan realising. As he gets snapped back to reality, the school bell rings and it's time to go home.
 
-She walks in to the scene for a closer look. She readies her fist and punches the bully's face, giving them a black eye. The rest of the bullies laughs at the injured guy for falling.
+He packs up his bag and waves goodbye to his teacher and friends. As he goes down the stairs, headed for the computer lab; he pulls out his phone and receives a text from Jason.
 
-...
-
-Cha, in the distance, witnesses the whole situation
-
-"What happened back there? Why the hell did you punch that guy?", Cha asks in a concerned tone.
-
-"Oh him? He was being a asshole to Evan.", Bri answers.
-
-"Why would you get yourself in trouble just for him? He's a total wimp.", Cha rolls her eyes.
-
-"What? He's my brother, of course I'd defend him?", Bri responds, annoyed.
-
-"Alright, alright. Shall we eat?", Cha asked.
-
-They gladly enjoyed their lunch and continues on their routine. Although Bri can't help but feel a bit iffy about Cha's response to her defending Evan, but again, she shrugs it off.
-
-### Lunch is over
-
-The lunch bell rings, again. Bri goes to her last class of the day, Mandarin. There's a speaking test today; she has to try and pronounce the sentences on her text book.
-
-"我吃狗了", Bri said proudly.
-
-The whole class looks at her in shock. "Does she know what she just said?", her friends whispered. The mandarin teacher raises her eyebrows, perplexed by such vile statement, although Bri doesn't seem to realize what she said.
-
-"You ate the dog?!", her teacher asked.
-
-"What? No! That's not what I meant! I meant to say that I ate enough." Bri responds quickly.
-
-"That isn't how you pronounce it. Enough is "够", what you said was "狗", which means dog.", her teacher said.
-
-"Oh sh-", Bri responded.
-
-"Excuse me?" The teacher cuts Bri off.
-
-"对不鸡, 老师", Bri responded.
-
-"你说什么? 你的意思是对不起不是对不鸡" the teacher scolds.
-
-Mandarin class goes smoothly, except for those incidents. Well, that was embarassing..
-
-The class finally ends and the school bell rings. She packs up her bag and greets her teacher goodbye, butchering some pronounciation in the way.
-
-"谢谢老师； 谢谢你教我们", the class said in union.
-
-As she goes down the stairs, she receives a message from Jason.
-
-<message-container platform="Text Message" time="Today at 13:19">
+<message-container platform="Text Message" time="Today at 13:17">
 <message contact="Jason" alignment="left" img="https://fangdustry.me/assets/jason.929209c1.png">
-hey, accompany evan at the lab as usual, ill be out at 4 today, gotta study
+yo, wait at the lab as usual, ill be out at 4 today, gotta study lmao
 </message>
-<message contact="Brigitta" alignment="right" img="https://fangdustry.me/assets/bri.94c96ea0.png">
-alright sure
+<message contact="Evan" alignment="right" img="https://fangdustry.me/assets/evan.ad68993e.png">
+ok
 </message>
 </message-container>
 
-Instead of accompanying Evan however, she decides to go and hangout with some of her friends. She crosses the road and goes to a nearby coffee shop.
+Evan waits, and waits. Eventually he gets tired and decides to go to a local mini-market to grab something to drink. He sees Bri there, too, also picking up something to drink.
 
-After her friends have left, she decides to go to a local mini-market to grab something. She sees Evan out of the corner of her eye.
+"Bri? You're here too?", he asks.
 
-...
+"Oh, hey!", she responds.
 
-Evan and Bri goes to Jason's library to tease him and drag him. They both decide to pull a prank on Jason, but as they were doing that, the librarian kicks both of them out for disturbing the peace. Bri can't stop laughing after what had happened, she runs out of breath and almost collapse on the floor out of laughter,
+"Thanks for defending me earlier, again. I appreciate it.", says Evan.
 
-They stay outside near Jason's car, waiting for him to finish studying. Eventually, Jason finally finishes studying and picks up the rest of his siblings.
+"Nah, don't worry about it, it's nothing.", Bri laughs it off.
 
-...
+"Anyways, you wanna go over and tease Jason at the library?", Evan says while giggling.
 
-### The comfort of home
+"Sure!", Bri says excitedly.
 
-Jason finally reaches the last destination, home. They go in their apartment building and go to their unit.
+### Time to get out of school
 
-"Ah, home sweet home.", Bri said on her mind.
+So both of them go on to Jason's high-school library and pulls a prank on him. The librarian kicks them out for disturbing the peace. Jason, realising he lost track of time, swiftly gets out of the library and gets to his car.
 
-She goes to the bathroom and takes a quick shower. Then, she cleans her room and plays a couple maps on Project Sekai, her favourite game.
+"Bri? Evan? What are you guys doing here?", he asked.
 
-A bit later, Jason orders Bri to watch over the chicken broth while he picks up the rest from badminton class. She got rather bored and puts her headphones on. She nearly forgot about the chicken broth if it wasn't for the sound of bubbling startling her. She turns off the stove and leaves the kitchen to go back in to her room, where she reviews all her notes.
+"Uhh, we got kicked out of your library because we tried to pull a prank on you.", Bri said.
 
-Jason, along with the other boys, arrive home. He quickly prepares a dinner for the family and everyone eats dinner. The table was silent, as everyone was busy with eating and their own thing. Bri prefers to not eat the rice due to her lack of appetite
+Jason laughs it off and says, "Oh, you cheeky buggers."
 
-Then suddenly, Evan speaks.
+"Alright, let's go pick up the others now.", says Jason.
 
-...
+"Jason don't forget to pick up the others for Badminton alright?" Evan asks.
 
-In her heart, she scoffs this matter off. Tim hasn't eaten a proper dinner with them for around two weeks now nor did they ever have a serious conversation between them. All she could think about was how she was going to pull her new art commission business off. She finishes her plate and walks away from the table. Evan gives a concerned look but doesn't seem to be bothered to talk to her about it.
+"Alright, alright." Jason responds.
 
-"Can you help me do the dishes today, Bri?", Jason asked.
+### Hitting cocks
 
-"Sure.", Bri said reluctantly.
+Jason drops him, Albert and Jovan off at badminton practice. "Have fun, y'all", he yells before the three boys went in. Even though Evan doesn't excel at other sports, he has a passion for badminton and loves playing it.
 
-After washing the dishes, she goes to her room and does her homework for tomorrow. After that, she packs her bag for tomorrow and finishes some art requests. She closes off the day by playing another map on Ensemble Stars, and goes to sleep after.
+Today however, was a really bad day; a shuttlecock hits him in the eye. "OUCH!", he exclaimed.
 
-She closes her eyes while lying down on her bed, feeling nothing. A last sigh comes out of her breath.
+"You okay bro?", Jovan asks.
 
-"Goodnight.", she thought to herself, as she drifted off to sleep; the only place where she can gets peace.
+Albert runs over and gives him an ice pack. "Here, put this on your eye. It'll help you feel better.", said Albert.
+
+"Oh, thanks.", Evan responds.
+
+The rest of badminton practice goes smoothly, except for the fact that he's holding an ice pack on his eye all the time. Of course, his siblings poke fun at him, for any other reason other than he looks goofed.
+
+### Back to home
+
+As Jason is picking the rest of the boys up, he gets concerned when he saw Evan holding an ice pack on his eye.
+
+"What the fuck happened?", he asked.
+
+"His eye got hit by a shuttlecock!", Albert said while laughing.
+
+"L — massive skill issue", Jason responded.
+
+"Can we just go home?", Evan replied whilst sounding annoyed, rolling his eyes.
+
+The boys arrive home safely. Evan goes to the bathroom and takes a shower right away. After that, he puts on his clothes and unpacks his bag. He gets on his computer for a match of League of Legends. It's been a long day today, and he needs to unwind.
+
+### Everyone misses Tim, a lot
+
+"Dinner's ready!", Jason yelled.
+
+"What about Tim? Is he eating with us tonight?" Evan asks.
+
+"No — he says he'll be home at 11 today.", Jason responds.
+
+_Evan sighs._
+
+Tristan: "I wish he could be here with us."
+
+Nicholas, with an annoyed tone: "Does he even care about us?".
+
+Jason: "Of course he does. No doubt."
+
+Nadine: "For real though, why does he always come home late? It's as if he purposefully avoids us."
+
+Jason: "It's because he always works overtime, just to provide us enough money for food."
+
+Jason: "He cares a lot about us, don't ever doubt that."
+
+"Hmph." Nicholas responds with a pissed tone.
+
+Bri: "Let's eat now; shall we?"
+
+Jason: "Cheers everyone! Let's eat."
+
+They have a great dinner, although, they miss Tim a lot.
+
+After dinner, Evan goes to his room and packs for the next day. It's been a long day today, but a bright day awaits him tomorrow. Before he goes to sleep, he texts Tim a good night, although he rarely responds.
+
+"Goodnight, everyone" Evan says before closing his eye and dozing off.
