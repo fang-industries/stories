@@ -82,10 +82,10 @@ The class finally ends and the school bell rings. She packs up her bag and greet
 As she goes down the stairs, she receives a message from Jason.
 
 <message-container platform="Text Message" time="Today at 13:19">
-<message contact="Jason" alignment="left" img="https://fangdustry.me/assets/jason.929209c1.png">
+<message contact="Jason" alignment="left" img="https://cdn.fangdustry.me/jason.png">
 hey, accompany evan at the lab as usual, ill be out at 4 today, gotta study
 </message>
-<message contact="Brigitta" alignment="right" img="https://fangdustry.me/assets/bri.94c96ea0.png">
+<message contact="Brigitta" alignment="right" img="https://cdn.fangdustry.me/brigitta.png">
 alright sure
 </message>
 </message-container>

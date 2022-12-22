@@ -36,10 +36,10 @@ The lunch bell rings. He goes to his last class of the day, physics. Physics cla
 He packs up his bag and waves goodbye to his teacher and friends. As he goes down the stairs, headed for the computer lab; he pulls out his phone and receives a text from Jason.
 
 <message-container platform="Text Message" time="Today at 13:17">
-<message contact="Jason" alignment="left" img="https://fangdustry.me/assets/jason.929209c1.png">
+<message contact="Jason" alignment="left" img="https://cdn.fangdustry.me/jason.png">
 yo, wait at the lab as usual, ill be out at 4 today, gotta study lmao
 </message>
-<message contact="Evan" alignment="right" img="https://fangdustry.me/assets/evan.ad68993e.png">
+<message contact="Evan" alignment="right" img="https://cdn.fangdustry.me/evan.png">
 ok
 </message>
 </message-container>
