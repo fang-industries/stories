@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Panic Nova configuration
+.nova
