@@ -1,8 +1,7 @@
 <template>
   <div
     :class="
-      (alignment === 'right' ? 'justify-end' : 'justify-start') +
-      ' w-[48rem] flex'
+      (alignment === 'right' ? 'justify-end' : 'justify-start') + ' w-full flex'
     "
   >
     <div class="flex flex-col">
