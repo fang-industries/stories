@@ -1,7 +1,7 @@
 ---
 title: Albert's Crowded Schedule
 num: 7
-writer: "Nadine"
+writer: "Nadine and Jason"
 writtenOn: 22 December 2022
 ---
 
@@ -22,7 +22,6 @@ Albert gives up and just goes to his bathroom to get ready instead. Albert dries
 “It’s your own fault for waking up late. The hell were you doing on your phone till 2 a.m. anyways?” Albert says with a little smirk on his face.
 
 “None of your business, Mr. student council top ranking nerd.”
-
 The two laugh it off and Jovan gets ready in the bathroom while Albert fixes his tie and places his books into his bag, not realising which books he brought. He zips up his backpack and gets out of their room, going to the dinner table and eating the leftover pizza slices they had the other day. After a few minutes of eating and getting ready, everyone was ready to go.
 
 “Alright everyone, make sure to not leave anything behind. Now let’s go!” Jason yells.
@@ -41,29 +40,7 @@ Jovan and Albert were dropped off at their school and ran to classes without say
 
 The day continued after Science, then Mathematics, then a surprisingly peaceful lunch with no disturbances, which gave Albert some time to revise his Civic notes and write down some ideas for the student council meeting he has to attend after school to discuss an event coming up in a few months. Albert usually sat with Jayden and Jovan, but Jayden was sitting with his group to discuss about a group work for Social Studies and Jovan had to go to the chemistry lab for some consultation on a practicum. Albert finished lunch early and went to the library instead, going into one of the private rooms to practice his proposal for the meeting. The bell rang and Albert packed up his books to get to the last class of the day, Civics. Class finally ended and Jovan approached Albert to ask about their plan to play in the school basketball field.
 
-“I can’t today, Jov. Student council duties again, they informed me last minute and I didn’t have the chance to tell you.” Albert said, not realising that Jovan was disappointed with his sudden plan change.
-
-“This is the 2nd time you passed on basketball just for student council. I’m just gonna go to the field alone.” Jovan stormed off, leaving Albert confused on why he was upset.
-
-### Apologies
-
-Albert quickly left as soon as the meeting was adjourned, running to the basketball field and seeing Jovan dribbling a ball, a messed up tie on his neck and a sprite bottle in his hand. Jovan ignored Albert when he saw him approaching him. Jovan went to his backpack and picked it up, leaving the ball alone and not giving a single glance to Albert. He passed Albert, not a single word or look given.
-
-“I’m sorry.” Albert said loudly.
-
-“I’m sorry that I’ve been so busy with everything that I keep on ditching you. I’ve just been too busy with 9th grade and all, top it off with student council duties. I’m not doing this to run away from you. You’re my twin and I don’t want to lose you or lose the time I can spend with you.”
-
-Jovan looked back at Albert, immediately hugging him tightly.
-
-“I just miss spending time with you, bro.”
-
-“I promise I’ll make it up to you whenever I can, okay? I’m just trying to succeed so that I can take care of you. You are my older brother after all.”
-
-“By 2 minutes, it doesn't count.”
-
-The two brothers laughed and went to Jason’s car waiting for them. Bri was sitting at the back with Evan, so the two sat in the middle seat. They finally picked up Nadine and went to badminton lessons.
-
-...
+…
 
 ### It's been a long day
 
