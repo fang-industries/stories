@@ -9,10 +9,13 @@ module.exports = {
   ],
   darkMode: "media",
   theme: {
+    extend: {
+      fontFamily: {
+        display: ["Raleway", "sans-serif"],
+      },
+    },
     fontFamily: {
-      sans: ["Open Sans"],
-      body: ["Open Sans"],
-      display: ["Raleway"],
+      sans: ["Open Sans", "sans-serif"],
     },
   },
   plugins: [require("@tailwindcss/typography")],
