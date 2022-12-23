@@ -153,18 +153,6 @@
               "
             />
           </article>
-          <footer class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
-            <hr class="border-t-2 border-dashed border-neutral-600" />
-            <div class="flex justify-between">
-              <span class="text-neutral-600 dark:text-neutral-500"
-                >{{ page.readingStats.words.toLocaleString("en-GB") }} words
-              </span>
-              <span
-                class="text-neutral-600 dark:text-neutral-500 hidden md:block"
-                >Copyright © 2022 Fang Industries, inc.
-              </span>
-            </div>
-          </footer>
         </div>
       </transition>
     </div>
