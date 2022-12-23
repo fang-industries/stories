@@ -11,7 +11,7 @@
         <span
           :class="
             (alignment === 'right' ? 'pr-12 pl-2 text-right' : 'pl-12 pr-2') +
-            '  text-neutral-600 text-sm bg-gradient-to-br'
+            '  text-stone-700 text-sm bg-gradient-to-br'
           "
         >
           {{ contact }}
@@ -29,12 +29,12 @@
             :class="
               (!img
                 ? alignment === 'right'
-                  ? 'mr-11 bg-[#412B1D]'
-                  : 'ml-11 bg-stone-800'
+                  ? 'mr-11 bg-[#412B1D] border-[#412B1D]'
+                  : 'ml-11 bg-stone-800 border-stone-800'
                 : alignment === 'right'
-                ? 'bg-[#412B1D]'
-                : 'bg-stone-800') +
-              ' w-fit py-2 px-4 rounded-xl text-neutral-100 my-auto'
+                ? 'bg-[#412B1D] border-[#412B1D]'
+                : 'bg-stone-800 border-stone-800') +
+              ' w-fit py-2 px-4 border rounded-xl text-neutral-100 my-auto bg-opacity-[0.75] backdrop-blur-sm'
             "
           >
             <slot />
