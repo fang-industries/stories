@@ -1,6 +1,13 @@
 <template>
   <div
-    class="min-h-screen flex w-full selection:bg-[#412B1D] selection:text-white"
+    class="
+      min-h-screen
+      flex
+      w-full
+      selection:bg-[#412B1D]
+      selection:text-white
+      bg-[url(@/assets/images/crumpled.png)] bg-fixed
+    "
   >
     <div
       class="
@@ -63,7 +70,6 @@
         flex
         justify-center
         text-neutral-800
-        bg-[url(@/assets/images/crumpled.png)] bg-repeat
       "
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
