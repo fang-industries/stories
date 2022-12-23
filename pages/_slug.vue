@@ -1,43 +1,12 @@
 <template>
   <div
-    class="
-      min-h-screen
-      flex
-      w-full
-      dark:selection:bg-lime-400
-      dark:selection:text-neutral-800
-      selection:bg-lime-600
-      selection:text-neutral-200
-    "
+    class="min-h-screen flex w-full dark:selection:bg-lime-400 dark:selection:text-neutral-800 selection:bg-lime-600 selection:text-neutral-200"
   >
     <div
-      class="
-        w-96
-        2xl:w-[28rem]
-        h-screen
-        hidden
-        md:flex
-        flex-col
-        gap-y-4
-        rounded-r-3xl
-        shadow-lg
-        dark:bg-neutral-900
-        bg-[rgb(240,240,240)]
-        px-4
-        py-8
-        fixed
-        overflow-y-auto
-      "
+      class="w-96 2xl:w-[28rem] h-screen hidden md:flex flex-col gap-y-4 rounded-r-3xl shadow-lg dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
     >
       <h4
-        class="
-          font-display
-          text-xl
-          font-semibold
-          dark:text-neutral-200
-          text-neutral-800
-          p-2
-        "
+        class="font-display text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
       >
         Episode Index — {{ episodes.length }}
       </h4>
@@ -70,41 +39,15 @@
       </nuxt-link>
     </div>
     <div
-      class="
-        md:pl-96
-        2xl:pl-[28rem]
-        w-full
-        bg-neutral-100
-        flex
-        justify-center
-        text-neutral-800
-        dark:bg-[rgb(27,27,27)]
-        dark:text-neutral-200
-      "
+      class="md:pl-96 2xl:pl-[28rem] w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
         <div
-          class="
-            bg-gradient-to-t
-            w-full
-            dark:from-neutral-900
-            dark:to-transparent
-            from-neutral-50
-            to-transparent
-            py-8
-          "
+          class="bg-gradient-to-t w-full dark:from-neutral-900 dark:to-transparent from-neutral-50 to-transparent py-8"
         ></div>
         <nuxt-link to="/episodes">
           <div
-            class="
-              dark:bg-neutral-900
-              bg-neutral-50
-              w-full
-              text-center
-              py-1
-              underline
-              text-lime-500
-            "
+            class="dark:bg-neutral-900 bg-neutral-50 w-full text-center py-1 underline text-lime-500"
           >
             Show Episodes
           </div>
@@ -113,18 +56,7 @@
       <transition name="story" mode="out-in" appear>
         <div
           id="ep"
-          class="
-            md:w-[48rem]
-            xl:w-[52rem]
-            2xl:w-[56rem]
-            px-4
-            md:px-8
-            h-full
-            flex flex-col
-            py-8
-            md:py-16
-            justify-between
-          "
+          class="md:w-[48rem] xl:w-[52rem] 2xl:w-[56rem] px-4 md:px-8 h-full flex flex-col py-8 md:py-16 justify-between"
         >
           <article class="gap-y-8 flex flex-col">
             <div class="flex flex-col gap-y-2">
@@ -152,13 +84,7 @@
                 <span class="my-auto">Written by {{ page.writer }}</span>
               </div>
               <div
-                class="
-                  mb-1
-                  flex
-                  space-x-2
-                  text-neutral-500
-                  dark:text-neutral-400
-                "
+                class="mb-1 flex space-x-2 text-neutral-500 dark:text-neutral-400"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -182,40 +108,7 @@
             </div>
             <nuxt-content
               :document="page"
-              class="
-                prose
-                dark:prose-invert
-                prose-neutral
-                max-w-none
-                prose-h1:text-3xl
-                prose-h1:font-display
-                prose-h2:font-display
-                prose-h3:font-display
-                prose-h4:font-display
-                prose-h5:font-display
-                prose-h2:text-2xl
-                prose-h3:text-2xl
-                prose-h4:text-xl
-                dark:prose-p:text-neutral-300
-                prose-p:text-neutral-700 prose-a:text-lime-500
-                dark:prose-a:text-lime-400
-                prose-a:underline prose-a:transition
-                hover:prose-a:text-lime-700
-                dark:hover:prose-a:text-lime-200
-                prose-blockquote:font-normal prose-code:rounded-md
-                dark:prose-code:bg-neutral-900
-                prose-code:bg-neutral-200 prose-code:bg-opacity-60
-                dark:prose-code:bg-opacity-60
-                prose-code:p-1
-                prose-code:font-mono
-                prose-p:font-normal
-                prose-code:text-green-600
-                dark:prose-code:text-green-300
-                prose-li:marker:text-neutral-500
-                prose-code:before:content-none
-                prose-code:after:content-none
-                prose-img:rounded-xl
-              "
+              class="prose dark:prose-invert prose-neutral max-w-none prose-h1:text-3xl prose-h1:font-display prose-h2:font-display prose-h3:font-display prose-h4:font-display prose-h5:font-display prose-h2:text-2xl prose-h3:text-2xl prose-h4:text-xl dark:prose-p:text-neutral-300 prose-p:text-neutral-700 prose-a:text-lime-500 dark:prose-a:text-lime-400 prose-a:underline prose-a:transition hover:prose-a:text-lime-700 dark:hover:prose-a:text-lime-200 prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-neutral-900 prose-code:bg-neutral-200 prose-code:bg-opacity-60 dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-code:text-green-600 dark:prose-code:text-green-300 prose-li:marker:text-neutral-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
             />
           </article>
           <footer class="mt-16 flex w-full flex-col gap-8 mb-8 md:mb-0">
@@ -239,7 +132,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const episodes = await $content("main-storyline")
+    const episodes = await $content()
       .only(["slug", "title", "num", "writer", "writtenOn"])
       .sortBy("num", "asc")
       .fetch();
