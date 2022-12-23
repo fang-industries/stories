@@ -1,16 +1,21 @@
 <template>
   <div class="selection:bg-[#412B1D] selection:text-white">
-    <div class="fixed z-30 bottom-0 w-screen">
+    <button class="fixed z-30 bottom-0 w-screen" @click="$router.go(-1)">
       <div
-        class="bg-gradient-to-t w-full from-neutral-50 to-transparent py-8"
-      ></div>
-      <button
-        @click="$router.go(-1)"
-        class="bg-neutral-50 w-full text-center py-1 underline text-lime-700"
+        class="
+          bg-stone-800 bg-opacity-80
+          w-full
+          backdrop-blur-sm
+          border-t border-stone-800
+          text-center
+          py-1
+          underline
+          text-white
+        "
       >
         Hide Episodes
-      </button>
-    </div>
+      </div>
+    </button>
     <div
       class="
         h-screen
@@ -42,12 +47,13 @@
             rounded-lg
             hover:bg-[#412B1D] hover:bg-opacity-20
             transition
+            border-2 border-[#67412A]
           "
         >
-          <p class="text-sm text-neutral-600">
+          <p class="text-sm text-stone-800">
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
-          <span class="text-neutral-700">
+          <span class="text-stone-800">
             {{ episode.title }}
           </span>
         </div>

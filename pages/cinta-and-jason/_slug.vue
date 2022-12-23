@@ -30,7 +30,7 @@
           :class="
             ep.slice(25).slice(0, 1) === episode.num.toString()
               ? 'flex flex-col p-2 rounded-lg bg-[#412B1D] transition selection:bg-white selection:text-[#412B1D]'
-              : 'flex flex-col p-2 rounded-lg hover:bg-[#412B1D] hover:bg-opacity-20 transition'
+              : 'flex flex-col p-2 rounded-lg hover:bg-[#412B1D] hover:bg-opacity-20 transition border-2 border-[#67412A]'
           "
         >
           <p
@@ -38,7 +38,7 @@
             :class="
               ep.slice(25).slice(0, 1) === episode.num.toString()
                 ? 'text-sm no-underline text-white'
-                : 'text-sm text-neutral-600'
+                : 'text-sm text-stone-800'
             "
           >
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
@@ -47,7 +47,7 @@
             :class="
               ep.slice(25).slice(0, 1) === episode.num.toString()
                 ? 'no-underline hover:text-white text-white'
-                : ' text-neutral-700'
+                : ' text-stone-800'
             "
           >
             {{ episode.title }}
@@ -67,18 +67,17 @@
       "
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
-        <div
-          class="bg-gradient-to-t w-full from-neutral-50 to-transparent py-8"
-        ></div>
         <nuxt-link to="/cinta-and-jason/episodes">
           <div
             class="
-              bg-neutral-50
+              bg-stone-800 bg-opacity-80
               w-full
+              backdrop-blur-sm
+              border-t border-stone-800
               text-center
               py-1
               underline
-              text-lime-700
+              text-white
             "
           >
             Show Episodes
@@ -101,16 +100,9 @@
             justify-between
           "
         >
-          <article class="gap-y-8 flex flex-col">
+          <article class="gap-y-8 flex flex-col md:mb-0 mb-8">
             <div class="flex flex-col gap-y-2">
-              <h1
-                class="
-                  mb-2
-                  text-[#67412A] text-4xl
-                  font-bold font-cursive
-                  italic
-                "
-              >
+              <h1 class="text-[#67412A] text-4xl font-bold font-cursive italic">
                 {{ page.title }}
               </h1>
             </div>
