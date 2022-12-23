@@ -22,6 +22,9 @@ export default {
     "@/assets/css/tailwind.css",
     "@/assets/css/text.css",
     "@/assets/css/transitions.css",
+    "@fontsource/open-sans/400.css",
+    "@fontsource/open-sans/700.css",
+    "@fontsource/raleway/600.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
