@@ -16,6 +16,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
+      cursive: ["Libre Baskerville", "cursive"],
     },
   },
   plugins: [require("@tailwindcss/typography")],

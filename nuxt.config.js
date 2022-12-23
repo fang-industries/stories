@@ -25,6 +25,9 @@ export default {
     "@fontsource/open-sans/400.css",
     "@fontsource/open-sans/700.css",
     "@fontsource/raleway/600.css",
+    "@fontsource/libre-baskerville/700.css",
+    "@fontsource/gfs-neohellenic/400.css",
+    "@fontsource/gfs-neohellenic/700.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
