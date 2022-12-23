@@ -28,7 +28,7 @@
       >
         <div
           :class="
-            ep.slice(25) === episode.num.toString()
+            ep.slice(25).slice(0, 1) === episode.num.toString()
               ? 'flex flex-col p-2 rounded-lg bg-[#412B1D] transition selection:bg-white selection:text-[#412B1D]'
               : 'flex flex-col p-2 rounded-lg hover:bg-[#412B1D] hover:bg-opacity-20 transition'
           "
@@ -36,7 +36,7 @@
           <p
             class=""
             :class="
-              ep.slice(25) === episode.num.toString()
+              ep.slice(25).slice(0, 1) === episode.num.toString()
                 ? 'text-sm no-underline text-white'
                 : 'text-sm text-neutral-600'
             "
@@ -45,7 +45,7 @@
           </p>
           <span
             :class="
-              ep.slice(25) === episode.num.toString()
+              ep.slice(25).slice(0, 1) === episode.num.toString()
                 ? 'no-underline hover:text-white text-white'
                 : ' text-neutral-700'
             "
