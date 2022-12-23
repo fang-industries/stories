@@ -26,7 +26,7 @@
         overflow-y-auto
       "
     >
-      <h4 class="font-cursive text-2xl font-semibold text-[#67412A] p-2">
+      <h4 class="font-cursive text-2xl font-semibold text-[#412B1D] p-2">
         Episode Index — {{ episodes.length }}
       </h4>
       <nuxt-link
