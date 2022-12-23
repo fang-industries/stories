@@ -1,12 +1,44 @@
 <template>
   <div
-    class="min-h-screen flex w-full dark:selection:bg-lime-400 dark:selection:text-neutral-800 selection:bg-lime-600 selection:text-neutral-200"
+    class="
+      min-h-screen
+      flex
+      w-full
+      dark:selection:bg-lime-400
+      dark:selection:text-neutral-800
+      selection:bg-lime-600
+      selection:text-neutral-200
+    "
   >
     <div
-      class="z-40 hidden md:flex w-96 2xl:w-[28rem] h-screen flex-col rounded-r-3xl shadow-lg gap-y-4 dark:bg-neutral-900 bg-[rgb(240,240,240)] px-4 py-8 fixed overflow-y-auto"
+      class="
+        z-40
+        hidden
+        md:flex
+        w-96
+        2xl:w-[28rem]
+        h-screen
+        flex-col
+        rounded-r-3xl
+        shadow-lg
+        gap-y-4
+        dark:bg-neutral-900
+        bg-[rgb(240,240,240)]
+        px-4
+        py-8
+        fixed
+        overflow-y-auto
+      "
     >
       <h4
-        class="font-display text-xl font-semibold dark:text-neutral-200 text-neutral-800 p-2"
+        class="
+          font-display
+          text-xl
+          font-semibold
+          dark:text-neutral-200
+          text-neutral-800
+          p-2
+        "
       >
         Episode Index — {{ episodes.length }}
       </h4>
@@ -17,7 +49,16 @@
         class="w-full no-underline"
       >
         <div
-          class="flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
+          class="
+            flex flex-col
+            p-2
+            rounded-lg
+            dark:hover:bg-neutral-700
+            hover:bg-neutral-300
+            dark:hover:bg-opacity-40
+            hover:bg-opacity-20
+            transition
+          "
         >
           <p class="text-sm no-underline text-neutral-500">
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
@@ -29,15 +70,41 @@
       </nuxt-link>
     </div>
     <div
-      class="md:pl-96 2xl:pl-[28rem] w-full bg-neutral-100 flex justify-center text-neutral-800 dark:bg-[rgb(27,27,27)] dark:text-neutral-200"
+      class="
+        md:pl-96
+        2xl:pl-[28rem]
+        w-full
+        bg-neutral-100
+        flex
+        justify-center
+        text-neutral-800
+        dark:bg-[rgb(27,27,27)]
+        dark:text-neutral-200
+      "
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
         <div
-          class="bg-gradient-to-t w-full dark:from-neutral-900 dark:to-transparent from-neutral-50 to-transparent py-8"
+          class="
+            bg-gradient-to-t
+            w-full
+            dark:from-neutral-900
+            dark:to-transparent
+            from-neutral-50
+            to-transparent
+            py-8
+          "
         ></div>
         <nuxt-link to="/episodes">
           <div
-            class="dark:bg-neutral-900 bg-neutral-50 w-full text-center py-1 underline text-lime-500"
+            class="
+              dark:bg-neutral-900
+              bg-neutral-50
+              w-full
+              text-center
+              py-1
+              underline
+              text-lime-500
+            "
           >
             Show Episodes
           </div>
@@ -45,7 +112,18 @@
       </div>
 
       <div
-        class="px-4 md:px-8 md:w-[48rem] xl:w-[52rem] 2xl:w-[56rem] h-full flex flex-col py-8 md:py-16 justify-between"
+        class="
+          px-4
+          md:px-8
+          md:w-[48rem]
+          xl:w-[52rem]
+          2xl:w-[56rem]
+          h-full
+          flex flex-col
+          py-8
+          md:py-16
+          justify-between
+        "
       >
         <div class="flex flex-col gap-y-8 md:gap-y-16">
           <div class="flex flex-col gap-y-4">
@@ -64,7 +142,12 @@
               Welcome to the more fictional side of our minds.
             </h3>
             <div
-              class="gap-y-2 flex flex-col text-neutral-600 dark:text-neutral-300"
+              class="
+                gap-y-2
+                flex flex-col
+                text-neutral-600
+                dark:text-neutral-300
+              "
             >
               <p>
                 This is a place where we can let our imaginations run wild and
@@ -79,7 +162,12 @@
               Contribution and submissions
             </h3>
             <div
-              class="gap-y-2 flex flex-col text-neutral-600 dark:text-neutral-300"
+              class="
+                gap-y-2
+                flex flex-col
+                text-neutral-600
+                dark:text-neutral-300
+              "
             >
               <p>
                 Contributions for fixes on spelling and grammatical errors are
@@ -138,7 +226,7 @@ let episodeDialogOpen = false;
 
 export default {
   async asyncData({ $content }) {
-    const episodes = await $content()
+    const episodes = await $content("main-storyline")
       .only(["slug", "title", "num", "writtenOn"])
       .sortBy("num", "asc")
       .fetch();
