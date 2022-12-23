@@ -1,43 +1,97 @@
 <template>
-  <div
-    :class="
-      (alignment === 'right' ? 'justify-end' : 'justify-start') + ' w-full flex'
-    "
-  >
-    <div class="flex flex-col">
-      <span
-        :class="
-          (alignment === 'right' ? 'pr-12 pl-2 text-right' : 'pl-12 pr-2') +
-          '  dark:text-neutral-500 text-neutral-600 text-sm pb-2 bg-gradient-to-br'
-        "
-      >
-        {{ contact }}
-      </span>
-      <div class="flex gap-x-3">
-        <img
+  <div>
+    <div
+      v-if="this.$nuxt.$route.path.startsWith('/cinta-and-jason/')"
+      :class="
+        (alignment === 'right' ? 'justify-end' : 'justify-start') +
+        ' w-full flex'
+      "
+    >
+      <div :class="(!contact ? null : 'gap-y-2') + ' flex flex-col'">
+        <span
           :class="
-            (alignment === 'right' ? 'hidden' : null) +
-            ' w-8 h-8 rounded-full my-auto'
-          "
-          :src="img"
-        />
-        <p
-          :class="
-            (alignment === 'right'
-              ? 'dark:bg-lime-600 bg-lime-400'
-              : 'dark:bg-neutral-700 bg-neutral-200') +
-            ' w-fit py-2 px-4 rounded-xl text-neutral-100 my-auto'
+            (alignment === 'right' ? 'pr-12 pl-2 text-right' : 'pl-12 pr-2') +
+            '  text-neutral-600 text-sm bg-gradient-to-br'
           "
         >
-          <slot />
-        </p>
-        <img
+          {{ contact }}
+        </span>
+        <div class="flex gap-x-3">
+          <img
+            v-if="img"
+            :class="
+              (alignment === 'right' ? 'hidden' : null) +
+              ' w-8 h-8 rounded-full my-auto'
+            "
+            :src="img"
+          />
+          <p
+            :class="
+              (!img
+                ? alignment === 'right'
+                  ? 'mr-11 bg-[#412B1D]'
+                  : 'ml-11 bg-stone-800'
+                : alignment === 'right'
+                ? 'bg-[#412B1D]'
+                : 'bg-stone-800') +
+              ' w-fit py-2 px-4 rounded-xl text-neutral-100 my-auto'
+            "
+          >
+            <slot />
+          </p>
+          <img
+            v-if="img"
+            :class="
+              (alignment === 'left' ? 'hidden' : null) +
+              ' w-8 h-8 rounded-full my-auto'
+            "
+            :src="img"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      v-else
+      :class="
+        (alignment === 'right' ? 'justify-end' : 'justify-start') +
+        ' w-full flex'
+      "
+    >
+      <div class="flex flex-col">
+        <span
           :class="
-            (alignment === 'left' ? 'hidden' : null) +
-            ' w-8 h-8 rounded-full my-auto'
+            (alignment === 'right' ? 'pr-12 pl-2 text-right' : 'pl-12 pr-2') +
+            '  dark:text-neutral-500 text-neutral-600 text-sm pb-2 bg-gradient-to-br'
           "
-          :src="img"
-        />
+        >
+          {{ contact }}
+        </span>
+        <div class="flex gap-x-3">
+          <img
+            :class="
+              (alignment === 'right' ? 'hidden' : null) +
+              ' w-8 h-8 rounded-full my-auto'
+            "
+            :src="img"
+          />
+          <p
+            :class="
+              (alignment === 'right'
+                ? 'dark:bg-lime-600 bg-lime-400'
+                : 'dark:bg-neutral-700 bg-neutral-200') +
+              ' w-fit py-2 px-4 rounded-xl text-neutral-100 my-auto'
+            "
+          >
+            <slot />
+          </p>
+          <img
+            :class="
+              (alignment === 'left' ? 'hidden' : null) +
+              ' w-8 h-8 rounded-full my-auto'
+            "
+            :src="img"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -49,6 +103,7 @@ export default {
     alignment: String,
     img: String,
     contact: String,
+    message: String,
   },
 };
 </script>
