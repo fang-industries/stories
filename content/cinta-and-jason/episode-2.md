@@ -86,21 +86,3 @@ oh that promise, but I don’t have any feelings for her anymore
 imagine you say that and next thing we know you’re planning a wedding
 </message>
 </message-container>
-
-Jason shuts off his phone and places it in his bag, looking at his laptop as his professor walks into the classroom.
-
-“Good evening, class. As I announced yesterday, there will be a new student joining us. It appears she is a bit tardy at the moment so let us start with opening our textbooks at page 15-“
-
-The professor’s words were cut when a girl wearing a grey hoodie with jeans walk in. “I’m so sorry I’m late, professor, the traffic was a nightmare.”
-
-“No worries, Anastasia. You are right on time. Go ahead and sit next to Jason in the back.”
-
-Jason didn’t pay attention to who it was and was busy with his computer.
-
-“You can call me Cinta, sir. Anastasia is just my first name.”
-
-This one sentence immediately caught Jason’s attention.
-
-“Cinta?”
-
-“Jason?”
