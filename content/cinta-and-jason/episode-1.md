@@ -1,7 +1,7 @@
 ---
 title: A new student..?
 num: 1
-writtenOn: 15 October 2022
+writtenOn: 23 December 2022
 ---
 
 Jason sat down in his usual seat in his class, waiting for his professor to start the class. He pulls out his laptop and opens the notes from the last lecture, reviewing what he wrote just incase his professor gives a sudden pop quiz. He ends up pulling out his phone to update his friends.
