@@ -2,7 +2,7 @@
   <div>
     <div
       v-if="this.$nuxt.$route.path.startsWith('/cinta-and-jason/')"
-      class="gap-y-4 flex flex-col py-8 my-8 border-y-2 border-stone-600"
+      class="gap-y-2 flex flex-col py-8 my-8 border-y-2 border-stone-600"
     >
       <div
         :class="(!platform && !time ? 'hidden' : '') + ' flex flex-col gap-y-1'"

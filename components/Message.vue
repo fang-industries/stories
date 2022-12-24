@@ -9,9 +9,10 @@
     >
       <div :class="(!contact ? null : 'gap-y-2') + ' flex flex-col'">
         <span
+          v-if="contact"
           :class="
             (alignment === 'right' ? 'pr-12 pl-2 text-right' : 'pl-12 pr-2') +
-            '  text-stone-700 text-sm bg-gradient-to-br'
+            '  text-stone-700 text-sm bg-gradient-to-br mt-2'
           "
         >
           {{ contact }}
