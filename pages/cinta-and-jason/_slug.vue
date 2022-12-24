@@ -11,7 +11,7 @@
   >
     <div
       class="
-        w-1/3
+        w-96
         h-screen
         hidden
         md:flex
