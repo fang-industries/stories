@@ -30,11 +30,11 @@
             :class="
               (!img
                 ? alignment === 'right'
-                  ? 'mr-11 bg-[#412B1D] border-[#412B1D]'
-                  : 'ml-11 bg-stone-800 border-stone-800'
+                  ? 'mr-11 bg-[#412B1D] border-[#412B1D] ml-11'
+                  : 'ml-11 bg-stone-800 border-stone-800 mr-11'
                 : alignment === 'right'
-                ? 'bg-[#412B1D] border-[#412B1D]'
-                : 'bg-stone-800 border-stone-800') +
+                ? 'bg-[#412B1D] border-[#412B1D] ml-11'
+                : 'bg-stone-800 border-stone-800 mr-11') +
               ' w-fit py-2 px-4 border rounded-xl text-neutral-100 my-auto bg-opacity-[0.75] backdrop-blur-sm'
             "
           >
@@ -78,8 +78,8 @@
           <p
             :class="
               (alignment === 'right'
-                ? 'dark:bg-lime-600 bg-lime-400'
-                : 'dark:bg-neutral-700 bg-neutral-200') +
+                ? 'dark:bg-lime-600 bg-lime-400 ml-11'
+                : 'dark:bg-neutral-700 bg-neutral-200 mr-11') +
               ' w-fit py-2 px-4 rounded-xl text-neutral-100 my-auto'
             "
           >
