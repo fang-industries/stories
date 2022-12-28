@@ -27,6 +27,22 @@
             :src="img"
           />
           <p
+            v-if="emoji"
+            :class="
+              (!img
+                ? alignment === 'right'
+                  ? 'mr-12 ml-12'
+                  : 'ml-12 mr-12'
+                : alignment === 'right'
+                ? 'ml-12'
+                : 'mr-12') +
+              ' w-fit text-5xl rounded-xl text-neutral-100 my-auto '
+            "
+          >
+            <slot />
+          </p>
+          <p
+            v-else
             :class="
               (!img
                 ? alignment === 'right'
@@ -76,6 +92,22 @@
             :src="img"
           />
           <p
+            v-if="emoji"
+            :class="
+              (!img
+                ? alignment === 'right'
+                  ? 'mr-12 ml-12'
+                  : 'ml-12 mr-12'
+                : alignment === 'right'
+                ? 'ml-12'
+                : 'mr-12') +
+              ' w-fit text-5xl rounded-xl text-neutral-100 my-auto '
+            "
+          >
+            <slot />
+          </p>
+          <p
+            v-else
             :class="
               (alignment === 'right'
                 ? 'dark:bg-lime-600 bg-lime-400 ml-11'
@@ -105,6 +137,7 @@ export default {
     img: String,
     contact: String,
     message: String,
+    full: Boolean,
   },
 };
 </script>
