@@ -141,7 +141,7 @@ export default {
     img: String,
     contact: String,
     message: String,
-    full: Boolean,
+    emoji: Boolean,
   },
 };
 </script>
