@@ -11,11 +11,11 @@ Jason sat down in his usual seat in his class, waiting for his professor to star
 Jason texts to his group chat consisting of Evan and Nadine. Despite going to different Universities, they all still keep in touch since they all go to universities based in Jakarta (except for Nadine, she’s in Banten lol). Evan goes to Binawan University since he is a Physics major, and Nadine goes to UMN to pursue Graphic Design.
 
 <message-container>
-<message contact="Evan" alignment="left" img="https://cdn.fangdustry.me/evan.png">my prof is just discussing about GLB and GLBB like sir bas in 8th grade lol</message>
-<message contact="Nadine" alignment="left" img="https://cdn.fangdustry.me/nadine.png">
+<message contact="Evan" alignment="left" img="https://fangdustry.me/assets/evan.ad68993e.png">my prof is just discussing about GLB and GLBB like sir bas in 8th grade lol</message>
+<message contact="Nadine" alignment="left" img="https://fangdustry.me/assets/nadine.62fafaf1.png">
 Van why did you even pursue physics its basically middle school abuse, bio or chem is a thousand times better and less abusive to the adolescent mind.
 </message>
-<message contact="Jason" alignment="right" img="https://cdn.fangdustry.me/jason.png">
+<message contact="Jason" alignment="right" img="https://fangdustry.me/assets/jason.929209c1.png">
 okok both of you just shut up my prof is abt to start the lecture.
 </message>
 <message alignment="right">
