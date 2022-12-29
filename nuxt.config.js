@@ -28,6 +28,9 @@ export default {
     "@fontsource/libre-baskerville/700.css",
     "@fontsource/gfs-neohellenic/400.css",
     "@fontsource/gfs-neohellenic/700.css",
+    "@/assets/fontawesome/css/fontawesome.css",
+    "@/assets/fontawesome/css/brands.css",
+    "@/assets/fontawesome/css/solid.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
