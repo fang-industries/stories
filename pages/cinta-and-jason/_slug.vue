@@ -23,9 +23,46 @@
         overflow-y-auto
       "
     >
-      <h4 class="font-cursive text-2xl font-semibold text-[#412B1D] p-2">
+      <h4
+        class="
+          font-cursive
+          text-2xl
+          font-semibold
+          text-[#412B1D]
+          px-2
+          pt-2
+        "
+      >
         Episode Index — {{ episodes.length }}
       </h4>
+      <div
+        class=" text-stone-200
+          px-2
+          font-mono
+          flex
+          justify-between
+          bg-stone-800
+          rounded-full
+          py-1
+        "
+      >
+        <div class="flex gap-x-2">
+          <i class="fa-solid fa-code-branch my-auto"></i>
+          <p class="my-auto">cinta-and-jason</p>
+        </div>
+        <nuxt-link
+          class="
+            rounded-full
+            bg-[#412B1D]
+            hover:bg-[#67412A]
+            px-2
+            transition
+          "
+          to="/cinta-and-jason/storylines"
+        >
+          <i class="fa-solid fa-angle-right my-auto text-white"></i>
+        </nuxt-link>
+      </div>
       <nuxt-link
         v-for="episode in episodes"
         :key="episode.num"

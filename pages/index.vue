@@ -37,11 +37,48 @@
           font-semibold
           dark:text-neutral-200
           text-neutral-800
-          p-2
+          px-2
+          pt-2
         "
       >
         Episode Index — {{ episodes.length }}
       </h4>
+      <div
+        class="
+          dark:text-neutral-400
+          text-neutral-600
+          px-2
+          font-mono
+          flex
+          justify-between
+          border-2
+          dark:border-neutral-700
+          border-neutral-300
+          bg-neutral-200
+          dark:bg-neutral-800
+          rounded-full
+          py-1
+        "
+      >
+        <div class="flex gap-x-2">
+          <i class="fa-solid fa-code-branch my-auto"></i>
+          <p class="my-auto">main-storyline</p>
+        </div>
+        <nuxt-link
+          class="
+            rounded-full
+            dark:bg-neutral-700
+            bg-neutral-300
+            px-2
+            hover:bg-neutral-400
+            dark:hover:bg-neutral-600
+            transition
+          "
+          to="/storylines"
+        >
+          <i class="fa-solid fa-angle-right my-auto"></i>
+        </nuxt-link>
+      </div>
       <nuxt-link
         v-for="episode in episodes"
         :key="episode.num"

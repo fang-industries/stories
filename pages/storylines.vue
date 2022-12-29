@@ -1,15 +1,12 @@
 <template>
-  <div
-    class="
+  <div class="
       dark:selection:bg-lime-400
       dark:selection:text-neutral-800
       selection:bg-lime-600
       selection:text-neutral-200
-    "
-  >
+    ">
     <div class="fixed z-30 bottom-0 w-screen">
-      <div
-        class="
+      <div class="
           bg-gradient-to-t
           w-full
           dark:from-neutral-900
@@ -17,25 +14,9 @@
           from-neutral-50
           to-transparent
           py-8
-        "
-      ></div>
-      <button
-        @click="$router.go(-1)"
-        class="
-          dark:bg-neutral-900
-          bg-neutral-50
-          w-full
-          text-center
-          py-1
-          underline
-          text-lime-500
-        "
-      >
-        Hide Episodes
-      </button>
+        "></div>
     </div>
-    <div
-      class="
+    <div class="
         h-screen
         w-screen
         flex-col
@@ -48,10 +29,8 @@
         py-8
         md:py-16
         overflow-y-auto
-      "
-    >
-      <h4
-        class="
+      ">
+      <h4 class="
           font-display
           text-xl
           font-semibold
@@ -59,50 +38,28 @@
           text-neutral-800
           px-2
           pt-2
-        "
-      >
-        Episode Index — {{ episodes.length }}
+        ">
+        Storylines Index — {{ storylines.length }}
       </h4>
-      <div
+      <button
+        @click="$router.go(-1)"
         class="
-          dark:text-neutral-400
+          dark:text-neutral-400 hover:text-lime-500 transition dark:hover:text-lime-400
           text-neutral-600
           px-2
           font-mono
           flex
-          justify-between
-          border-2
-          dark:border-neutral-700
-          border-neutral-300
-          bg-neutral-200
-          dark:bg-neutral-800
+          gap-x-2
           rounded-full
           py-1
-        "
-      >
-        <div class="flex gap-x-2">
-          <i class="fa-solid fa-code-branch my-auto"></i>
-          <p class="my-auto">main-storyline</p>
-        </div>
-        <nuxt-link
-          class="
-            rounded-full
-            dark:bg-neutral-700
-            bg-neutral-300
-            px-2
-            hover:bg-neutral-400
-            dark:hover:bg-neutral-600
-            transition
-          "
-          to="/storylines"
-        >
-          <i class="fa-solid fa-angle-right my-auto"></i>
-        </nuxt-link>
-      </div>
+        ">
+          <i class="fa-solid fa-arrow-left my-auto"></i>
+          <p class="my-auto">Go back to previous page...</p>
+      </button>
       <nuxt-link
-        v-for="episode in episodes"
-        :key="episode.num"
-        :to="'/' + episode.slug"
+        v-for="story in storylines"
+        :key="story.slug"
+        :to="'/' + story.slug"
         class="w-full no-underline"
       >
         <div
@@ -118,10 +75,10 @@
           "
         >
           <p class="text-sm no-underline text-neutral-500">
-            Episode #{{ episode.num }} • {{ episode.writtenOn }}
+            Started by {{ story.writers.join(', ') }} on {{ story.started }}
           </p>
           <span class="underline font-medium">
-            {{ episode.title }}
+            {{ story.title }}
           </span>
         </div>
       </nuxt-link>
@@ -130,19 +87,20 @@
 </template>
 
 <script>
+
 export default {
   async asyncData({ $content }) {
-    const episodes = await $content("main-storyline")
-      .only(["slug", "title", "num", "writtenOn"])
+    const storylines = await $content("!storylines")
+      .only(["slug", "title", "writers", "started"])
       .sortBy("num", "asc")
       .fetch();
     return {
-      episodes,
+      storylines,
     };
   },
   head() {
     return {
-      title: `Episodes - stories.fangdustry.me`,
+      title: `Storylines - stories.fangdustry.me`,
     };
   },
 };
