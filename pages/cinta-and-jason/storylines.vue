@@ -27,7 +27,6 @@
           font-mono
           flex
           gap-x-2
-          rounded-full
           pb-1
         ">
           <i class="fa-solid fa-arrow-left my-auto"></i>
@@ -43,7 +42,6 @@
           class="
             flex flex-col
             p-2
-            rounded-lg
             hover:bg-[#412B1D] hover:bg-opacity-20
             transition
             border-2 border-[#67412A]

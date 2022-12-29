@@ -50,7 +50,6 @@
           flex
           justify-between
           bg-stone-800
-          rounded-full
           py-1
         "
       >
@@ -60,7 +59,6 @@
         </div>
         <nuxt-link
           class="
-            rounded-full
             bg-[#412B1D]
             hover:bg-[#67412A]
             px-2
@@ -81,7 +79,6 @@
           class="
             flex flex-col
             p-2
-            rounded-lg
             hover:bg-[#412B1D] hover:bg-opacity-20
             transition
             border-2 border-[#67412A]

@@ -42,8 +42,7 @@
           flex
           justify-between
           bg-stone-800
-          rounded-full
-          py-1
+          py-2
         "
       >
         <div class="flex gap-x-2">
@@ -52,7 +51,6 @@
         </div>
         <nuxt-link
           class="
-            rounded-full
             bg-[#412B1D]
             hover:bg-[#67412A]
             px-2
@@ -72,8 +70,8 @@
         <div
           :class="
             ep.slice(25).slice(0, 1) === episode.num.toString()
-              ? 'flex flex-col p-2 rounded-lg bg-[#412B1D] transition selection:bg-white selection:text-[#412B1D]'
-              : 'flex flex-col p-2 rounded-lg hover:bg-[#412B1D] hover:bg-opacity-20 transition border-2 border-[#67412A]'
+              ? 'flex flex-col p-2 bg-[#412B1D] transition selection:bg-white selection:text-[#412B1D]'
+              : 'flex flex-col p-2 hover:bg-[#412B1D] hover:bg-opacity-20 transition border-2 border-[#67412A]'
           "
         >
           <p
