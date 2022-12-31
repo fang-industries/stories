@@ -25,9 +25,7 @@
         dark:bg-neutral-900
         bg-[rgb(240,240,240)]
         px-4
-        md:px-8
         py-8
-        md:py-16
         overflow-y-auto
       ">
       <h4 class="
