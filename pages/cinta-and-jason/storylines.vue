@@ -9,9 +9,7 @@
         flex
         bg-[url(@/assets/images/crumpled.png)]
         px-4
-        md:px-8
         py-8
-        md:py-16
         overflow-y-auto
       "
     >
