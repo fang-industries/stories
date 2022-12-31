@@ -12,7 +12,7 @@ Jason texts to his group chat consisting of Evan and Nadine. Despite going to di
 
 <message-container>
 <message contact="Evan" alignment="left" img="https://fangdustry.me/assets/evan.ad68993e.png">my prof is just discussing about GLB and GLBB like sir bas in 8th grade lol</message>
-<message contact="Nadine" alignment="left" img="https://fangdustry.me/assets/nadine.62fafaf1.png">
+<message contact="Nadine" alignment="left" img="https://fangdustry.me/assets/nadine.2d232803.png">
 Van why did you even pursue physics its basically middle school abuse, bio or chem is a thousand times better and less abusive to the adolescent mind.
 </message>
 <message contact="Jason" alignment="right" img="https://fangdustry.me/assets/jason.929209c1.png">
