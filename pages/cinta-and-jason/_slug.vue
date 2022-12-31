@@ -36,13 +36,12 @@
         Episode Index — {{ episodes.length }}
       </h4>
       <div
-        class=" text-stone-200
-          px-2
+        class=" 
+          text-[#412B1D] pl-2
           font-mono
           flex
           justify-between
-          bg-stone-800
-          py-2
+          pb-2
         "
       >
         <div class="flex gap-x-2">
