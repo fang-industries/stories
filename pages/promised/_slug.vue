@@ -46,7 +46,7 @@
       >
         <div class="flex gap-x-2">
           <i class="fa-solid fa-code-branch my-auto"></i>
-          <p class="my-auto">cinta-and-jason</p>
+          <p class="my-auto">promised</p>
         </div>
         <nuxt-link
           class="
@@ -55,7 +55,7 @@
             px-2
             transition
           "
-          to="/cinta-and-jason/storylines"
+          to="/promised/storylines"
         >
           <i class="fa-solid fa-angle-right my-auto text-white"></i>
         </nuxt-link>
@@ -63,7 +63,7 @@
       <nuxt-link
         v-for="episode in episodes"
         :key="episode.num"
-        :to="'/cinta-and-jason/' + episode.slug"
+        :to="'/promised/' + episode.slug"
         class="w-full no-underline"
       >
         <div
@@ -106,7 +106,7 @@
       "
     >
       <div class="md:hidden fixed z-30 bottom-0 w-full">
-        <nuxt-link to="/cinta-and-jason/episodes">
+        <nuxt-link to="/promised/episodes">
           <div
             class="
               bg-stone-800 bg-opacity-80
@@ -193,12 +193,12 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const episodes = await $content("cinta-and-jason")
+    const episodes = await $content("promised")
       .only(["slug", "title", "num", "writer", "writtenOn"])
       .sortBy("num", "asc")
       .fetch();
 
-    const page = await $content("cinta-and-jason", params.slug).fetch();
+    const page = await $content("promised", params.slug).fetch();
 
     return {
       episodes,

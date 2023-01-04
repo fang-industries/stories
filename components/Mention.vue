@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="this.$nuxt.$route.path.startsWith('/cinta-and-jason/')">
+    <div v-if="this.$nuxt.$route.path.startsWith('/promised/')">
       <div>
         {{ msgBefore }}
         <span class="bg-[#412B1D] border-[#412B1D] px-1 rounded-lg"

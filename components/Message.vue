@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      v-if="this.$nuxt.$route.path.startsWith('/cinta-and-jason/')"
+      v-if="this.$nuxt.$route.path.startsWith('/promised/')"
       :class="
         (alignment === 'right' ? 'justify-end' : 'justify-start') +
         ' w-full flex'

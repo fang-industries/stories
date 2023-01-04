@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      v-if="this.$nuxt.$route.path.startsWith('/cinta-and-jason/')"
+      v-if="this.$nuxt.$route.path.startsWith('/promised/')"
       class="gap-y-2 flex flex-col py-8 my-8 border-y-2 border-stone-600"
     >
       <div
