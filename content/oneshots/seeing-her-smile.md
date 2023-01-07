@@ -1,5 +1,5 @@
 ---
-title: Seeing her smile
+title: Seeing her smile.
 writers: ["Nadine"]
 date: 7 January 2023
 ---
