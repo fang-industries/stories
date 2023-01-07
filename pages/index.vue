@@ -62,7 +62,7 @@
       >
         <div class="flex gap-x-2">
           <i class="fa-solid fa-code-branch my-auto"></i>
-          <p class="my-auto">main-storyline</p>
+          <p class="my-auto text-ellipsis overflow-hidden whitespace-nowrap">main-storyline</p>
         </div>
         <nuxt-link
           class="
@@ -97,10 +97,10 @@
             transition
           "
         >
-          <p class="text-sm no-underline text-neutral-500">
+          <p class="text-sm no-underline text-neutral-500 text-ellipsis overflow-hidden whitespace-nowrap">
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
-          <span class="underline font-medium">
+          <span class="underline font-medium text-ellipsis overflow-hidden whitespace-nowrap">
             {{ episode.title }}
           </span>
         </div>
