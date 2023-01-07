@@ -53,7 +53,7 @@
               class="flex flex-col p-2 hover:bg-[#412B1D] hover:bg-opacity-20 transition border-2 border-[#67412A]"
             >
               <p class="text-sm text-stone-800">
-                Written by {{ story.writers.join(", ") }} on {{ story.started }}
+                Written by {{ story.writers.join(", ") }} on {{ story.date }}
               </p>
               <span class="text-stone-800">
                 {{ story.title }}
