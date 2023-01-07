@@ -56,7 +56,7 @@
           <nuxt-link
             v-for="story in oneshots"
             :key="story.slug"
-            :to="'/' + story.slug"
+            :to="'/oneshots/' + story.slug"
             class="w-full no-underline"
           >
             <div
