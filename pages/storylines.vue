@@ -25,7 +25,7 @@
       <div class="grid md:grid-cols-2 gap-x-4">
         <div class="gap-y-4 flex flex-col">
           <p
-            class="px-2 text-lg font-medium dark:text-neutral-200 text-neutral-800"
+            class="px-2 text-lg font-medium dark:text-neutral-200 text-neutral-800 "
           >
             All Series — {{ series.length }}
           </p>
@@ -38,10 +38,10 @@
             <div
               class="flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
             >
-              <p class="text-sm no-underline text-neutral-500">
+              <p class="text-sm no-underline text-neutral-500 text-ellipsis overflow-hidden whitespace-nowrap">
                 Started by {{ story.writers.join(", ") }} on {{ story.started }}
               </p>
-              <span class="underline font-medium">
+              <span class="underline font-medium text-ellipsis overflow-hidden whitespace-nowrap">
                 {{ story.title }}
               </span>
             </div>
@@ -62,10 +62,10 @@
             <div
               class="flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
             >
-              <p class="text-sm no-underline text-neutral-500">
+              <p class="text-sm no-underline text-neutral-500 text-ellipsis overflow-hidden whitespace-nowrap">
                 Written by {{ story.writers.join(", ") }} on {{ story.date }}
               </p>
-              <span class="underline font-medium">
+              <span class="underline font-medium text-ellipsis overflow-hidden whitespace-nowrap">
                 {{ story.title }}
               </span>
             </div>

@@ -55,7 +55,7 @@
       >
         <div class="flex gap-x-2">
           <i class="fa-solid fa-code-branch my-auto"></i>
-          <p class="my-auto">promised</p>
+          <p class="my-auto text-ellipsis overflow-hidden whitespace-nowrap">promised</p>
         </div>
         <nuxt-link
           class="
@@ -84,10 +84,10 @@
             border-2 border-[#67412A]
           "
         >
-          <p class="text-sm text-stone-800">
+          <p class="text-sm text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap">
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
           </p>
-          <span class="text-stone-800">
+          <span class="text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap">
             {{ episode.title }}
           </span>
         </div>

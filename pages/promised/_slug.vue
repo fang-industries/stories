@@ -46,7 +46,7 @@
       >
         <div class="flex gap-x-2">
           <i class="fa-solid fa-code-branch my-auto"></i>
-          <p class="my-auto">promised</p>
+          <p class="my-auto text-ellipsis overflow-hidden whitespace-nowrap">promised</p>
         </div>
         <nuxt-link
           class="
@@ -77,8 +77,8 @@
             class=""
             :class="
               ep.slice(18).slice(0, 1) === episode.num.toString()
-                ? 'text-sm no-underline text-white'
-                : 'text-sm text-stone-800'
+                ? 'text-sm no-underline text-white text-ellipsis overflow-hidden whitespace-nowrap' 
+                : 'text-sm text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap'
             "
           >
             Episode #{{ episode.num }} • {{ episode.writtenOn }}
@@ -86,8 +86,8 @@
           <span
             :class="
               ep.slice(18).slice(0, 1) === episode.num.toString()
-                ? 'no-underline hover:text-white text-white'
-                : ' text-stone-800'
+                ? 'no-underline hover:text-white text-white text-ellipsis overflow-hidden whitespace-nowrap'
+                : ' text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap'
             "
           >
             {{ episode.title }}
