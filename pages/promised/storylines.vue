@@ -29,10 +29,10 @@
             <div
               class="flex flex-col p-2 hover:bg-[#412B1D] hover:bg-opacity-20 transition border-2 border-[#67412A]"
             >
-              <p class="text-sm text-stone-800">
+              <p class="text-sm text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap">
                 Started by {{ story.writers.join(", ") }} on {{ story.started }}
               </p>
-              <span class="text-stone-800">
+              <span class="text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap">
                 {{ story.title }}
               </span>
             </div>
@@ -52,10 +52,10 @@
             <div
               class="flex flex-col p-2 hover:bg-[#412B1D] hover:bg-opacity-20 transition border-2 border-[#67412A]"
             >
-              <p class="text-sm text-stone-800">
+              <p class="text-sm text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap">
                 Written by {{ story.writers.join(", ") }} on {{ story.date }}
               </p>
-              <span class="text-stone-800">
+              <span class="text-stone-800 text-ellipsis overflow-hidden whitespace-nowrap">
                 {{ story.title }}
               </span>
             </div>
