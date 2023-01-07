@@ -16,11 +16,9 @@
 
       <div class="grid md:grid-cols-2 gap-x-4">
         <div class="gap-y-4 flex flex-col">
-          <p
-            class="px-2 text-lg font-medium dark:text-neutral-200 text-neutral-800"
-          >
+          <h4 class="font-cursive ext-lg font-medium text-[#412B1D] px-2 pt-2">
             All Series — {{ series.length }}
-          </p>
+          </h4>
 
           <nuxt-link
             v-for="story in series"
@@ -41,11 +39,9 @@
           </nuxt-link>
         </div>
         <div class="gap-y-4 flex flex-col">
-          <p
-            class="px-2 text-lg font-medium dark:text-neutral-200 text-neutral-800"
-          >
+          <h4 class="font-cursive ext-lg font-medium text-[#412B1D] px-2 pt-2">
             All Oneshots — {{ oneshots.length }}
-          </p>
+          </h4>
 
           <nuxt-link
             v-for="story in oneshots"
