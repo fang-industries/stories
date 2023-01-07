@@ -5,7 +5,7 @@
   <script>
   export default {
     mounted() {
-      window.location.href = "/storylines";
+      window.location.href = "/oneshots/storylines";
     },
   };
   </script>
