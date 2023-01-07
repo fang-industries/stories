@@ -13,7 +13,7 @@
       <h4
         class="font-display text-xl font-semibold dark:text-neutral-200 text-neutral-800 px-2 pt-2"
       >
-        Storylines Index — {{ storylines.length }}
+        Storylines Index — {{ series.length + oneshots.length }}
       </h4>
       <button
         @click="$router.go(-1)"
@@ -27,7 +27,7 @@
           <p
             class="px-2 text-lg font-medium dark:text-neutral-200 text-neutral-800"
           >
-            All Series — {{ series.length + oneshots.length }}
+            All Series — {{ series.length }}
           </p>
           <nuxt-link
             v-for="story in series"
@@ -63,7 +63,7 @@
               class="flex flex-col p-2 rounded-lg dark:hover:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
             >
               <p class="text-sm no-underline text-neutral-500">
-                Written by {{ story.writers.join(", ") }}
+                Written by {{ story.writers.join(", ") }} on {{ story.date }}
               </p>
               <span class="underline font-medium">
                 {{ story.title }}
@@ -85,7 +85,7 @@ export default {
       .fetch();
     
     const oneshots = await $content("oneshots")
-      .only(["slug", "title", "writers",])
+      .only(["slug", "title", "writers", "date"])
       .sortBy("num", "asc")
       .fetch();
     return {
