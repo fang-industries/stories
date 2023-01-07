@@ -47,7 +47,7 @@
               <h1 class="text-3xl font-bold">{{ page.title }}</h1>
               <nuxt-content
                 :document="page"
-                class="prose mt-6 max-w-none dark:prose-invert prose-gray prose-h2:text-xl prose-h3:text-xl prose-h4:text-xl prose-a:underline prose-a:transition prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-li:marker:text-gray-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
+                class="prose mt-6 md:max-w-none dark:prose-invert prose-gray prose-h2:text-xl prose-h3:text-xl prose-h4:text-xl prose-a:underline prose-a:transition prose-blockquote:font-normal prose-code:rounded-md dark:prose-code:bg-opacity-60 prose-code:p-1 prose-code:font-mono prose-p:font-normal prose-li:marker:text-gray-500 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
               />
             </div>
           </div>
