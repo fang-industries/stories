@@ -10,16 +10,25 @@
           <div
             class="gap-x-8 hidden md:flex dark:bg-gray-800 bg-gray-200 md:rounded-t-xl md:dark:border-gray-700 md:border-gray-300 md:border-b px-8 py-4"
           >
-            <nuxt-link class="flex gap-x-2 no-underline" to="/episodes">
-              <i class="fa-solid fa-circle my-auto text-sm text-red-500 cursor-pointer"></i>
-              <i class="fa-solid fa-circle my-auto text-sm text-yellow-500 cursor-pointer"></i>
-              <i class="fa-solid fa-circle my-auto text-sm text-green-500 cursor-pointer"></i>
+            <nuxt-link
+              class="flex gap-x-2 no-underline"
+              to="/oneshots/storylines"
+            >
+              <i
+                class="fa-solid fa-circle my-auto text-sm text-red-500 cursor-pointer"
+              ></i>
+              <i
+                class="fa-solid fa-circle my-auto text-sm text-yellow-500 cursor-pointer"
+              ></i>
+              <i
+                class="fa-solid fa-circle my-auto text-sm text-green-500 cursor-pointer"
+              ></i>
             </nuxt-link>
             <strong>{{ page.title }}</strong>
           </div>
           <div class="md:hidden flex flex-row px-8 pt-8 pb-2 justify-between">
             <nuxt-link
-              to="/episodes"
+              to="/oneshots/storylines"
               class="flex md:hidden gap-x-2 no-underline dark:text-blue-400 hover:dark:text-blue-300 hover:text-blue-600 text-blue-500"
             >
               <i class="fa-solid fa-chevron-left my-auto text-lg"></i>
