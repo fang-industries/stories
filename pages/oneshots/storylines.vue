@@ -77,11 +77,11 @@
                     <div
                       class="flex flex-col md:ml-2 p-2 rounded-lg border-gray-200 dark:border-gray-800 border-2 dark:hover:bg-gray-700 hover:bg-gray-300 dark:hover:bg-opacity-40 hover:bg-opacity-20 transition"
                     >
-                      <p class="text-sm no-underline text-gray-500">
+                      <p class="text-sm no-underline text-gray-500 text-ellipsis overflow-hidden">
                         Written by {{ story.writers.join(", ") }} on
                         {{ story.date }}
                       </p>
-                      <span class="underline font-medium">
+                      <span class="underline font-medium text-ellipsis overflow-hidden">
                         {{ story.title }}
                       </span>
                     </div>

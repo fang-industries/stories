@@ -24,7 +24,7 @@
                 class="fa-solid fa-circle my-auto text-sm text-green-500 cursor-pointer"
               ></i>
             </nuxt-link>
-            <strong>{{ page.title }}</strong>
+            <strong class="text-ellipsis overflow-hidden whitespace-nowrap">{{ page.title }}</strong>
           </div>
           <div class="md:hidden flex flex-row px-8 pt-8 pb-2 justify-between">
             <nuxt-link
